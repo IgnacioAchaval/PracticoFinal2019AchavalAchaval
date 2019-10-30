@@ -5,7 +5,6 @@
 
 using namespace std;
 
-/Users/ignacioachaval/workspace/src/github.com/IgnacioAchaval/PracticoFinal2019AchavalAchaval/archivo.txt
 
 int main(int argc, char *argv[]) {
 
