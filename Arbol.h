@@ -7,50 +7,38 @@
 
 #include "nodoArbol.h"
 
-
-class Arbol
-{
+class Arbol {
 private:
     nodoArbol *raiz; //Puntero a la raiz
 
 public:
 
     //Constructores
-    Arbol()
-    {
+    Arbol() {
         raiz = NULL;
     }
 
-    Arbol(string d, int c)
-    {
+    Arbol(string d, int c) {
         raiz = new nodoArbol(d, c);
     }
 
-    void vaciarArbol()
-    {
-        raiz=NULL;
+    void vaciarArbol() {
+        raiz = NULL;
     }
 
-
-    void insertar(string d,int c)
-    {
-        if (raiz != NULL)
-        {
-            raiz->insertar(d,c);
+    void insertar(string d, int c) {
+        if (raiz != NULL) {
+            raiz->insertar(d, c);
             c++;
-        }
-        else
+        } else
             raiz = new nodoArbol(d, c);
     }
 
     // Muestras
-    void mostrarOrden()
-    {
+    void mostrarOrden() {
         if (raiz != NULL)
             raiz->mostrarOrden();
     }
-
 };
-
 
 #endif //PRACTICOFINAL2019ACHAVALACHAVAL_ARBOL_H

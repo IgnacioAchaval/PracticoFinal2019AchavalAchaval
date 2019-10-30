@@ -5,14 +5,13 @@
 #ifndef PRACTICOFINAL2019ACHAVALACHAVAL_NODOARBOL_H
 #define PRACTICOFINAL2019ACHAVALACHAVAL_NODOARBOL_H
 
-
 #include <iostream>
 #include "Lista.h"
 #include <vector>
+
 using namespace std;
 
-class nodoArbol
-{
+class nodoArbol {
 private:
     string dato;
     int contador;
@@ -20,95 +19,76 @@ private:
 
 public:
     // Constructores.
-    nodoArbol(string d, int c)
-    {
+    nodoArbol(string d, int c) {
         izq = NULL;
         der = NULL;
-        dato.insert(0,d);
+        dato.insert(0, d);
         contador = c;
     }
 
     // Access methods
 
-
-    void setDato(string d)
-    {
-        dato.insert(0,d);
+    void setDato(string d) {
+        dato.insert(0, d);
     }
 
-    void setContador(int contador)
-    {
+    void setContador(int contador) {
         nodoArbol::contador = contador;
     }
 
-    string getDato(int pos)
-    {
+    string getDato(int pos) {
         return dato;
     }
 
-    int getContador()
-    {
+    int getContador() {
         return contador;
     }
 
 
-    nodoArbol *getIzq()
-    {
+    nodoArbol *getIzq() {
         return izq;
     }
 
-    void setIzq(nodoArbol *izq)
-    {
+    void setIzq(nodoArbol *izq) {
         nodoArbol::izq = izq;
     }
 
-    nodoArbol *getDer() const
-    {
+    nodoArbol *getDer() const {
         return der;
     }
 
-    void setDer(nodoArbol *der)
-    {
+    void setDer(nodoArbol *der) {
         nodoArbol::der = der;
     }
 
 
-    void insertar(string d,int c)
-    {
+    void insertar(string d, int c) {
 
-        if (contador < c)
-        {
+        if (contador < c) {
             if (der != NULL)
-                der->insertar(d,c);
+                der->insertar(d, c);
             else
-                der=new nodoArbol(d,c);
+                der = new nodoArbol(d, c);
 
 
-
-        } else if(contador>c)
-        {
+        } else if (contador > c) {
             if (izq != NULL)
-                izq->insertar(d,c);
+                izq->insertar(d, c);
             else
-                izq=new nodoArbol(d,c);
-        }
-        else if(contador==c)
-        {
-            dato.insert(0,d);
+                izq = new nodoArbol(d, c);
+        } else if (contador == c) {
+            dato.insert(0, d);
         }
     }
 
-    void insertar(nodoArbol *n)
-    {
+    void insertar(nodoArbol *n) {
         if (n != NULL)
-            if (contador < n->getContador())
-            {
+            if (contador < n->getContador()) {
                 if (der != NULL)
                     der->insertar(n);
                 else
                     der = n;
-            } else
-            {
+            } else {
                 if (izq != NULL)
                     izq->insertar(n);
                 else
@@ -116,70 +96,42 @@ public:
             }
     }
 
-    void mostrarOrden()
-    {
+    void mostrarOrden() {
         if (der != NULL)
             der->mostrarOrden();
-        cout << ' ' << dato << ' ' << contador<<endl;
+        cout << ' ' << dato << ' ' << contador << endl;
         if (izq != NULL)
             izq->mostrarOrden();
     }
 
-    /*void mostrarPreOrden()
-    {
-        cout << ' ' << dato << ' ' << dato;
-        if (izq != NULL)
-            izq->mostrarPreOrden();
-        if (der != NULL)
-            der->mostrarPreOrden();
-    }
 
-    void mostrarPosOrden()
-    {
-        if (izq != NULL)
-            izq->mostrarPosOrden();
-        if (der != NULL)
-            der->mostrarPosOrden();
-        cout << ' ' << dato << ' ' << dato;
-    }*/
-
-
-    int borrar(string d, int c, nodoArbol *padre, int lado)
-    {
+    int borrar(string d, int c, nodoArbol *padre, int lado) {
         nodoArbol *derAux = der;
         nodoArbol *izqAux = izq;
 
-        if (d != dato)
-        {
-            if (d > dato)
-            {
+        if (d != dato) {
+            if (d > dato) {
                 if (der == NULL)
                     return -1;
-                if (der->borrar(d, c, this, 0) == 1)
-                {
+                if (der->borrar(d, c, this, 0) == 1) {
                     c--;
                     delete derAux;
                 }
 
-            } else
-            {
+            } else {
                 if (izq == NULL)
                     return -1;
-                if (izq->borrar(d, c, this, 1))
-                {
+                if (izq->borrar(d, c, this, 1)) {
                     c--;
                     delete izqAux;
 
                 }
 
             }
-        } else
-        {
-            if (lado)
-            {
+        } else {
+            if (lado) {
                 padre->setIzq(der);
-            } else
-            {
+            } else {
                 padre->setDer(der);
             }
             der->insertar(izq);
@@ -190,6 +142,5 @@ public:
 
 
 };
-
 
 #endif //PRACTICOFINAL2019ACHAVALACHAVAL_NODOARBOL_H
