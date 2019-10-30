@@ -4,13 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/ignacioachaval/CLionProjects/PracticoFinal2019AchavalAchaval/Arbol.cpp" "/Users/ignacioachaval/CLionProjects/PracticoFinal2019AchavalAchaval/cmake-build-debug/CMakeFiles/PracticoFinal2019AchavalAchaval.dir/Arbol.cpp.o"
-  "/Users/ignacioachaval/CLionProjects/PracticoFinal2019AchavalAchaval/Arbolstr.cpp" "/Users/ignacioachaval/CLionProjects/PracticoFinal2019AchavalAchaval/cmake-build-debug/CMakeFiles/PracticoFinal2019AchavalAchaval.dir/Arbolstr.cpp.o"
-  "/Users/ignacioachaval/CLionProjects/PracticoFinal2019AchavalAchaval/Lista.cpp" "/Users/ignacioachaval/CLionProjects/PracticoFinal2019AchavalAchaval/cmake-build-debug/CMakeFiles/PracticoFinal2019AchavalAchaval.dir/Lista.cpp.o"
-  "/Users/ignacioachaval/CLionProjects/PracticoFinal2019AchavalAchaval/Nodo.cpp" "/Users/ignacioachaval/CLionProjects/PracticoFinal2019AchavalAchaval/cmake-build-debug/CMakeFiles/PracticoFinal2019AchavalAchaval.dir/Nodo.cpp.o"
-  "/Users/ignacioachaval/CLionProjects/PracticoFinal2019AchavalAchaval/main.cpp" "/Users/ignacioachaval/CLionProjects/PracticoFinal2019AchavalAchaval/cmake-build-debug/CMakeFiles/PracticoFinal2019AchavalAchaval.dir/main.cpp.o"
-  "/Users/ignacioachaval/CLionProjects/PracticoFinal2019AchavalAchaval/nodoArbol.cpp" "/Users/ignacioachaval/CLionProjects/PracticoFinal2019AchavalAchaval/cmake-build-debug/CMakeFiles/PracticoFinal2019AchavalAchaval.dir/nodoArbol.cpp.o"
-  "/Users/ignacioachaval/CLionProjects/PracticoFinal2019AchavalAchaval/nodoArbolstr.cpp" "/Users/ignacioachaval/CLionProjects/PracticoFinal2019AchavalAchaval/cmake-build-debug/CMakeFiles/PracticoFinal2019AchavalAchaval.dir/nodoArbolstr.cpp.o"
+  "/Users/ignacioachaval/workspace/src/github.com/IgnacioAchaval/PracticoFinal2019AchavalAchaval/Arbol.cpp" "/Users/ignacioachaval/workspace/src/github.com/IgnacioAchaval/PracticoFinal2019AchavalAchaval/cmake-build-debug/CMakeFiles/PracticoFinal2019AchavalAchaval.dir/Arbol.cpp.o"
+  "/Users/ignacioachaval/workspace/src/github.com/IgnacioAchaval/PracticoFinal2019AchavalAchaval/Arbolstr.cpp" "/Users/ignacioachaval/workspace/src/github.com/IgnacioAchaval/PracticoFinal2019AchavalAchaval/cmake-build-debug/CMakeFiles/PracticoFinal2019AchavalAchaval.dir/Arbolstr.cpp.o"
+  "/Users/ignacioachaval/workspace/src/github.com/IgnacioAchaval/PracticoFinal2019AchavalAchaval/Lista.cpp" "/Users/ignacioachaval/workspace/src/github.com/IgnacioAchaval/PracticoFinal2019AchavalAchaval/cmake-build-debug/CMakeFiles/PracticoFinal2019AchavalAchaval.dir/Lista.cpp.o"
+  "/Users/ignacioachaval/workspace/src/github.com/IgnacioAchaval/PracticoFinal2019AchavalAchaval/Nodo.cpp" "/Users/ignacioachaval/workspace/src/github.com/IgnacioAchaval/PracticoFinal2019AchavalAchaval/cmake-build-debug/CMakeFiles/PracticoFinal2019AchavalAchaval.dir/Nodo.cpp.o"
+  "/Users/ignacioachaval/workspace/src/github.com/IgnacioAchaval/PracticoFinal2019AchavalAchaval/main.cpp" "/Users/ignacioachaval/workspace/src/github.com/IgnacioAchaval/PracticoFinal2019AchavalAchaval/cmake-build-debug/CMakeFiles/PracticoFinal2019AchavalAchaval.dir/main.cpp.o"
+  "/Users/ignacioachaval/workspace/src/github.com/IgnacioAchaval/PracticoFinal2019AchavalAchaval/nodoArbol.cpp" "/Users/ignacioachaval/workspace/src/github.com/IgnacioAchaval/PracticoFinal2019AchavalAchaval/cmake-build-debug/CMakeFiles/PracticoFinal2019AchavalAchaval.dir/nodoArbol.cpp.o"
+  "/Users/ignacioachaval/workspace/src/github.com/IgnacioAchaval/PracticoFinal2019AchavalAchaval/nodoArbolstr.cpp" "/Users/ignacioachaval/workspace/src/github.com/IgnacioAchaval/PracticoFinal2019AchavalAchaval/cmake-build-debug/CMakeFiles/PracticoFinal2019AchavalAchaval.dir/nodoArbolstr.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

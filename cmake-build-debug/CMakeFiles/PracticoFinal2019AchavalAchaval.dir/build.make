@@ -43,10 +43,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/ignacioachaval/CLionProjects/PracticoFinal2019AchavalAchaval
+CMAKE_SOURCE_DIR = /Users/ignacioachaval/workspace/src/github.com/IgnacioAchaval/PracticoFinal2019AchavalAchaval
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/ignacioachaval/CLionProjects/PracticoFinal2019AchavalAchaval/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/ignacioachaval/workspace/src/github.com/IgnacioAchaval/PracticoFinal2019AchavalAchaval/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/PracticoFinal2019AchavalAchaval.dir/depend.make
@@ -59,94 +59,94 @@ include CMakeFiles/PracticoFinal2019AchavalAchaval.dir/flags.make
 
 CMakeFiles/PracticoFinal2019AchavalAchaval.dir/main.cpp.o: CMakeFiles/PracticoFinal2019AchavalAchaval.dir/flags.make
 CMakeFiles/PracticoFinal2019AchavalAchaval.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ignacioachaval/CLionProjects/PracticoFinal2019AchavalAchaval/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/PracticoFinal2019AchavalAchaval.dir/main.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PracticoFinal2019AchavalAchaval.dir/main.cpp.o -c /Users/ignacioachaval/CLionProjects/PracticoFinal2019AchavalAchaval/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ignacioachaval/workspace/src/github.com/IgnacioAchaval/PracticoFinal2019AchavalAchaval/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/PracticoFinal2019AchavalAchaval.dir/main.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PracticoFinal2019AchavalAchaval.dir/main.cpp.o -c /Users/ignacioachaval/workspace/src/github.com/IgnacioAchaval/PracticoFinal2019AchavalAchaval/main.cpp
 
 CMakeFiles/PracticoFinal2019AchavalAchaval.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PracticoFinal2019AchavalAchaval.dir/main.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ignacioachaval/CLionProjects/PracticoFinal2019AchavalAchaval/main.cpp > CMakeFiles/PracticoFinal2019AchavalAchaval.dir/main.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ignacioachaval/workspace/src/github.com/IgnacioAchaval/PracticoFinal2019AchavalAchaval/main.cpp > CMakeFiles/PracticoFinal2019AchavalAchaval.dir/main.cpp.i
 
 CMakeFiles/PracticoFinal2019AchavalAchaval.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PracticoFinal2019AchavalAchaval.dir/main.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ignacioachaval/CLionProjects/PracticoFinal2019AchavalAchaval/main.cpp -o CMakeFiles/PracticoFinal2019AchavalAchaval.dir/main.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ignacioachaval/workspace/src/github.com/IgnacioAchaval/PracticoFinal2019AchavalAchaval/main.cpp -o CMakeFiles/PracticoFinal2019AchavalAchaval.dir/main.cpp.s
 
 CMakeFiles/PracticoFinal2019AchavalAchaval.dir/nodoArbol.cpp.o: CMakeFiles/PracticoFinal2019AchavalAchaval.dir/flags.make
 CMakeFiles/PracticoFinal2019AchavalAchaval.dir/nodoArbol.cpp.o: ../nodoArbol.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ignacioachaval/CLionProjects/PracticoFinal2019AchavalAchaval/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/PracticoFinal2019AchavalAchaval.dir/nodoArbol.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PracticoFinal2019AchavalAchaval.dir/nodoArbol.cpp.o -c /Users/ignacioachaval/CLionProjects/PracticoFinal2019AchavalAchaval/nodoArbol.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ignacioachaval/workspace/src/github.com/IgnacioAchaval/PracticoFinal2019AchavalAchaval/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/PracticoFinal2019AchavalAchaval.dir/nodoArbol.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PracticoFinal2019AchavalAchaval.dir/nodoArbol.cpp.o -c /Users/ignacioachaval/workspace/src/github.com/IgnacioAchaval/PracticoFinal2019AchavalAchaval/nodoArbol.cpp
 
 CMakeFiles/PracticoFinal2019AchavalAchaval.dir/nodoArbol.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PracticoFinal2019AchavalAchaval.dir/nodoArbol.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ignacioachaval/CLionProjects/PracticoFinal2019AchavalAchaval/nodoArbol.cpp > CMakeFiles/PracticoFinal2019AchavalAchaval.dir/nodoArbol.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ignacioachaval/workspace/src/github.com/IgnacioAchaval/PracticoFinal2019AchavalAchaval/nodoArbol.cpp > CMakeFiles/PracticoFinal2019AchavalAchaval.dir/nodoArbol.cpp.i
 
 CMakeFiles/PracticoFinal2019AchavalAchaval.dir/nodoArbol.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PracticoFinal2019AchavalAchaval.dir/nodoArbol.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ignacioachaval/CLionProjects/PracticoFinal2019AchavalAchaval/nodoArbol.cpp -o CMakeFiles/PracticoFinal2019AchavalAchaval.dir/nodoArbol.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ignacioachaval/workspace/src/github.com/IgnacioAchaval/PracticoFinal2019AchavalAchaval/nodoArbol.cpp -o CMakeFiles/PracticoFinal2019AchavalAchaval.dir/nodoArbol.cpp.s
 
 CMakeFiles/PracticoFinal2019AchavalAchaval.dir/Lista.cpp.o: CMakeFiles/PracticoFinal2019AchavalAchaval.dir/flags.make
 CMakeFiles/PracticoFinal2019AchavalAchaval.dir/Lista.cpp.o: ../Lista.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ignacioachaval/CLionProjects/PracticoFinal2019AchavalAchaval/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/PracticoFinal2019AchavalAchaval.dir/Lista.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PracticoFinal2019AchavalAchaval.dir/Lista.cpp.o -c /Users/ignacioachaval/CLionProjects/PracticoFinal2019AchavalAchaval/Lista.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ignacioachaval/workspace/src/github.com/IgnacioAchaval/PracticoFinal2019AchavalAchaval/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/PracticoFinal2019AchavalAchaval.dir/Lista.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PracticoFinal2019AchavalAchaval.dir/Lista.cpp.o -c /Users/ignacioachaval/workspace/src/github.com/IgnacioAchaval/PracticoFinal2019AchavalAchaval/Lista.cpp
 
 CMakeFiles/PracticoFinal2019AchavalAchaval.dir/Lista.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PracticoFinal2019AchavalAchaval.dir/Lista.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ignacioachaval/CLionProjects/PracticoFinal2019AchavalAchaval/Lista.cpp > CMakeFiles/PracticoFinal2019AchavalAchaval.dir/Lista.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ignacioachaval/workspace/src/github.com/IgnacioAchaval/PracticoFinal2019AchavalAchaval/Lista.cpp > CMakeFiles/PracticoFinal2019AchavalAchaval.dir/Lista.cpp.i
 
 CMakeFiles/PracticoFinal2019AchavalAchaval.dir/Lista.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PracticoFinal2019AchavalAchaval.dir/Lista.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ignacioachaval/CLionProjects/PracticoFinal2019AchavalAchaval/Lista.cpp -o CMakeFiles/PracticoFinal2019AchavalAchaval.dir/Lista.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ignacioachaval/workspace/src/github.com/IgnacioAchaval/PracticoFinal2019AchavalAchaval/Lista.cpp -o CMakeFiles/PracticoFinal2019AchavalAchaval.dir/Lista.cpp.s
 
 CMakeFiles/PracticoFinal2019AchavalAchaval.dir/Nodo.cpp.o: CMakeFiles/PracticoFinal2019AchavalAchaval.dir/flags.make
 CMakeFiles/PracticoFinal2019AchavalAchaval.dir/Nodo.cpp.o: ../Nodo.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ignacioachaval/CLionProjects/PracticoFinal2019AchavalAchaval/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/PracticoFinal2019AchavalAchaval.dir/Nodo.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PracticoFinal2019AchavalAchaval.dir/Nodo.cpp.o -c /Users/ignacioachaval/CLionProjects/PracticoFinal2019AchavalAchaval/Nodo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ignacioachaval/workspace/src/github.com/IgnacioAchaval/PracticoFinal2019AchavalAchaval/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/PracticoFinal2019AchavalAchaval.dir/Nodo.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PracticoFinal2019AchavalAchaval.dir/Nodo.cpp.o -c /Users/ignacioachaval/workspace/src/github.com/IgnacioAchaval/PracticoFinal2019AchavalAchaval/Nodo.cpp
 
 CMakeFiles/PracticoFinal2019AchavalAchaval.dir/Nodo.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PracticoFinal2019AchavalAchaval.dir/Nodo.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ignacioachaval/CLionProjects/PracticoFinal2019AchavalAchaval/Nodo.cpp > CMakeFiles/PracticoFinal2019AchavalAchaval.dir/Nodo.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ignacioachaval/workspace/src/github.com/IgnacioAchaval/PracticoFinal2019AchavalAchaval/Nodo.cpp > CMakeFiles/PracticoFinal2019AchavalAchaval.dir/Nodo.cpp.i
 
 CMakeFiles/PracticoFinal2019AchavalAchaval.dir/Nodo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PracticoFinal2019AchavalAchaval.dir/Nodo.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ignacioachaval/CLionProjects/PracticoFinal2019AchavalAchaval/Nodo.cpp -o CMakeFiles/PracticoFinal2019AchavalAchaval.dir/Nodo.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ignacioachaval/workspace/src/github.com/IgnacioAchaval/PracticoFinal2019AchavalAchaval/Nodo.cpp -o CMakeFiles/PracticoFinal2019AchavalAchaval.dir/Nodo.cpp.s
 
 CMakeFiles/PracticoFinal2019AchavalAchaval.dir/Arbol.cpp.o: CMakeFiles/PracticoFinal2019AchavalAchaval.dir/flags.make
 CMakeFiles/PracticoFinal2019AchavalAchaval.dir/Arbol.cpp.o: ../Arbol.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ignacioachaval/CLionProjects/PracticoFinal2019AchavalAchaval/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/PracticoFinal2019AchavalAchaval.dir/Arbol.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PracticoFinal2019AchavalAchaval.dir/Arbol.cpp.o -c /Users/ignacioachaval/CLionProjects/PracticoFinal2019AchavalAchaval/Arbol.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ignacioachaval/workspace/src/github.com/IgnacioAchaval/PracticoFinal2019AchavalAchaval/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/PracticoFinal2019AchavalAchaval.dir/Arbol.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PracticoFinal2019AchavalAchaval.dir/Arbol.cpp.o -c /Users/ignacioachaval/workspace/src/github.com/IgnacioAchaval/PracticoFinal2019AchavalAchaval/Arbol.cpp
 
 CMakeFiles/PracticoFinal2019AchavalAchaval.dir/Arbol.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PracticoFinal2019AchavalAchaval.dir/Arbol.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ignacioachaval/CLionProjects/PracticoFinal2019AchavalAchaval/Arbol.cpp > CMakeFiles/PracticoFinal2019AchavalAchaval.dir/Arbol.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ignacioachaval/workspace/src/github.com/IgnacioAchaval/PracticoFinal2019AchavalAchaval/Arbol.cpp > CMakeFiles/PracticoFinal2019AchavalAchaval.dir/Arbol.cpp.i
 
 CMakeFiles/PracticoFinal2019AchavalAchaval.dir/Arbol.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PracticoFinal2019AchavalAchaval.dir/Arbol.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ignacioachaval/CLionProjects/PracticoFinal2019AchavalAchaval/Arbol.cpp -o CMakeFiles/PracticoFinal2019AchavalAchaval.dir/Arbol.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ignacioachaval/workspace/src/github.com/IgnacioAchaval/PracticoFinal2019AchavalAchaval/Arbol.cpp -o CMakeFiles/PracticoFinal2019AchavalAchaval.dir/Arbol.cpp.s
 
 CMakeFiles/PracticoFinal2019AchavalAchaval.dir/Arbolstr.cpp.o: CMakeFiles/PracticoFinal2019AchavalAchaval.dir/flags.make
 CMakeFiles/PracticoFinal2019AchavalAchaval.dir/Arbolstr.cpp.o: ../Arbolstr.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ignacioachaval/CLionProjects/PracticoFinal2019AchavalAchaval/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/PracticoFinal2019AchavalAchaval.dir/Arbolstr.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PracticoFinal2019AchavalAchaval.dir/Arbolstr.cpp.o -c /Users/ignacioachaval/CLionProjects/PracticoFinal2019AchavalAchaval/Arbolstr.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ignacioachaval/workspace/src/github.com/IgnacioAchaval/PracticoFinal2019AchavalAchaval/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/PracticoFinal2019AchavalAchaval.dir/Arbolstr.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PracticoFinal2019AchavalAchaval.dir/Arbolstr.cpp.o -c /Users/ignacioachaval/workspace/src/github.com/IgnacioAchaval/PracticoFinal2019AchavalAchaval/Arbolstr.cpp
 
 CMakeFiles/PracticoFinal2019AchavalAchaval.dir/Arbolstr.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PracticoFinal2019AchavalAchaval.dir/Arbolstr.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ignacioachaval/CLionProjects/PracticoFinal2019AchavalAchaval/Arbolstr.cpp > CMakeFiles/PracticoFinal2019AchavalAchaval.dir/Arbolstr.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ignacioachaval/workspace/src/github.com/IgnacioAchaval/PracticoFinal2019AchavalAchaval/Arbolstr.cpp > CMakeFiles/PracticoFinal2019AchavalAchaval.dir/Arbolstr.cpp.i
 
 CMakeFiles/PracticoFinal2019AchavalAchaval.dir/Arbolstr.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PracticoFinal2019AchavalAchaval.dir/Arbolstr.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ignacioachaval/CLionProjects/PracticoFinal2019AchavalAchaval/Arbolstr.cpp -o CMakeFiles/PracticoFinal2019AchavalAchaval.dir/Arbolstr.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ignacioachaval/workspace/src/github.com/IgnacioAchaval/PracticoFinal2019AchavalAchaval/Arbolstr.cpp -o CMakeFiles/PracticoFinal2019AchavalAchaval.dir/Arbolstr.cpp.s
 
 CMakeFiles/PracticoFinal2019AchavalAchaval.dir/nodoArbolstr.cpp.o: CMakeFiles/PracticoFinal2019AchavalAchaval.dir/flags.make
 CMakeFiles/PracticoFinal2019AchavalAchaval.dir/nodoArbolstr.cpp.o: ../nodoArbolstr.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ignacioachaval/CLionProjects/PracticoFinal2019AchavalAchaval/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/PracticoFinal2019AchavalAchaval.dir/nodoArbolstr.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PracticoFinal2019AchavalAchaval.dir/nodoArbolstr.cpp.o -c /Users/ignacioachaval/CLionProjects/PracticoFinal2019AchavalAchaval/nodoArbolstr.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ignacioachaval/workspace/src/github.com/IgnacioAchaval/PracticoFinal2019AchavalAchaval/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/PracticoFinal2019AchavalAchaval.dir/nodoArbolstr.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PracticoFinal2019AchavalAchaval.dir/nodoArbolstr.cpp.o -c /Users/ignacioachaval/workspace/src/github.com/IgnacioAchaval/PracticoFinal2019AchavalAchaval/nodoArbolstr.cpp
 
 CMakeFiles/PracticoFinal2019AchavalAchaval.dir/nodoArbolstr.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PracticoFinal2019AchavalAchaval.dir/nodoArbolstr.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ignacioachaval/CLionProjects/PracticoFinal2019AchavalAchaval/nodoArbolstr.cpp > CMakeFiles/PracticoFinal2019AchavalAchaval.dir/nodoArbolstr.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ignacioachaval/workspace/src/github.com/IgnacioAchaval/PracticoFinal2019AchavalAchaval/nodoArbolstr.cpp > CMakeFiles/PracticoFinal2019AchavalAchaval.dir/nodoArbolstr.cpp.i
 
 CMakeFiles/PracticoFinal2019AchavalAchaval.dir/nodoArbolstr.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PracticoFinal2019AchavalAchaval.dir/nodoArbolstr.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ignacioachaval/CLionProjects/PracticoFinal2019AchavalAchaval/nodoArbolstr.cpp -o CMakeFiles/PracticoFinal2019AchavalAchaval.dir/nodoArbolstr.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ignacioachaval/workspace/src/github.com/IgnacioAchaval/PracticoFinal2019AchavalAchaval/nodoArbolstr.cpp -o CMakeFiles/PracticoFinal2019AchavalAchaval.dir/nodoArbolstr.cpp.s
 
 # Object files for target PracticoFinal2019AchavalAchaval
 PracticoFinal2019AchavalAchaval_OBJECTS = \
@@ -170,7 +170,7 @@ PracticoFinal2019AchavalAchaval: CMakeFiles/PracticoFinal2019AchavalAchaval.dir/
 PracticoFinal2019AchavalAchaval: CMakeFiles/PracticoFinal2019AchavalAchaval.dir/nodoArbolstr.cpp.o
 PracticoFinal2019AchavalAchaval: CMakeFiles/PracticoFinal2019AchavalAchaval.dir/build.make
 PracticoFinal2019AchavalAchaval: CMakeFiles/PracticoFinal2019AchavalAchaval.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/ignacioachaval/CLionProjects/PracticoFinal2019AchavalAchaval/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable PracticoFinal2019AchavalAchaval"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/ignacioachaval/workspace/src/github.com/IgnacioAchaval/PracticoFinal2019AchavalAchaval/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable PracticoFinal2019AchavalAchaval"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/PracticoFinal2019AchavalAchaval.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -183,6 +183,6 @@ CMakeFiles/PracticoFinal2019AchavalAchaval.dir/clean:
 .PHONY : CMakeFiles/PracticoFinal2019AchavalAchaval.dir/clean
 
 CMakeFiles/PracticoFinal2019AchavalAchaval.dir/depend:
-	cd /Users/ignacioachaval/CLionProjects/PracticoFinal2019AchavalAchaval/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/ignacioachaval/CLionProjects/PracticoFinal2019AchavalAchaval /Users/ignacioachaval/CLionProjects/PracticoFinal2019AchavalAchaval /Users/ignacioachaval/CLionProjects/PracticoFinal2019AchavalAchaval/cmake-build-debug /Users/ignacioachaval/CLionProjects/PracticoFinal2019AchavalAchaval/cmake-build-debug /Users/ignacioachaval/CLionProjects/PracticoFinal2019AchavalAchaval/cmake-build-debug/CMakeFiles/PracticoFinal2019AchavalAchaval.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/ignacioachaval/workspace/src/github.com/IgnacioAchaval/PracticoFinal2019AchavalAchaval/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/ignacioachaval/workspace/src/github.com/IgnacioAchaval/PracticoFinal2019AchavalAchaval /Users/ignacioachaval/workspace/src/github.com/IgnacioAchaval/PracticoFinal2019AchavalAchaval /Users/ignacioachaval/workspace/src/github.com/IgnacioAchaval/PracticoFinal2019AchavalAchaval/cmake-build-debug /Users/ignacioachaval/workspace/src/github.com/IgnacioAchaval/PracticoFinal2019AchavalAchaval/cmake-build-debug /Users/ignacioachaval/workspace/src/github.com/IgnacioAchaval/PracticoFinal2019AchavalAchaval/cmake-build-debug/CMakeFiles/PracticoFinal2019AchavalAchaval.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/PracticoFinal2019AchavalAchaval.dir/depend
 
