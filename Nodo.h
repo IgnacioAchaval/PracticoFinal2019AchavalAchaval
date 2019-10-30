@@ -1,7 +1,7 @@
 //
 // Created by Ignacio Achaval on 25/10/2019.
 //
-
+/*
 #ifndef PRACTICOFINAL2019ACHAVALACHAVAL_NODO_H
 #define PRACTICOFINAL2019ACHAVALACHAVAL_NODO_H
 
@@ -10,17 +10,11 @@
 using namespace std;
 
 
-struct info
-{
-    string dato;
-    int contador;
-};
 
 class Nodo
 {
 private:
     string dato;
-    int contador;
     Nodo *next;
 public:
     Nodo()
@@ -63,3 +57,4 @@ public:
 
 
 #endif //PRACTICOFINAL2019ACHAVALACHAVAL_NODO_H
+*/

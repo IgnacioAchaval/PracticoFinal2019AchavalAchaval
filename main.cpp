@@ -14,9 +14,9 @@ int main(int argc, char *argv[]) {
     vector<string> lista;
 
     int contLetra = 0, contPalabra = 0, contLinea = 0;
-    int i, palInicio, mostrar = 0, excluir = 0;
+    int palInicio, mostrar = 0, excluir = 0;
 
-    for (i = 1; i < argc; i++) {
+    for (int i = 1; i < argc; i++) {
         if (argv[i][0] == '-')            // el argumento empieza con guion
 
         {
@@ -44,7 +44,7 @@ int main(int argc, char *argv[]) {
             contLinea++;
             contLetra += linea.length();
             palInicio = 0;
-            for (i = 0; i < linea.length(); i++) {
+            for (int i = 0; i < linea.length(); i++) {
                 if (linea[i] == ' ' || linea[i] == ',' || linea[i] == '.' || linea[i] == '!' || linea[i] == '?' ||
                     i == linea.length() - 1) {
                     palabra = linea.substr(palInicio, i - palInicio);
@@ -89,7 +89,7 @@ int main(int argc, char *argv[]) {
         switch (opcion) {
             case 1 :
                 cout << "Arbol Palabras Armado";
-                for (i = 0; i < lista.size(); i++)
+                for (int i = 0; i < lista.size(); i++)
                     sbbst.insert(lista[i]);
 
 
@@ -115,18 +115,18 @@ int main(int argc, char *argv[]) {
                     cout << "Arbol No vacio" << endl;
                 break;
             case 5 :
-                cout << "\nSe vacio el arbol\n";
+                cout << endl <<"Se vacio el arbol" << endl;
                 sbbst.makeEmpty();
                 AOcu.vaciarArbol();
                 break;
             case 6 :
                 sbbst.insertarOrden(&AOcu);
-                cout << "Mostrar por orden de ocurrencias: ";
+                cout << endl << "Mostrar por orden de ocurrencias: " << endl;
                 AOcu.mostrarOrden();
                 AOcu.vaciarArbol();
                 break;
             case 7 :
-                cout << "\nListado por orden de Alfabetico : " << endl;
+                cout << endl <<"Listado por orden de Alfabetico : " << endl;
                 sbbst.inorder();
                 cout << endl;
                 sbbst.insertarOrden(&AOcu);
@@ -135,7 +135,7 @@ int main(int argc, char *argv[]) {
                 cout << "Opcion Incorrecta\n ";
                 break;
         }
-        cout << "\nDo you want to continue (Type y or n): ";
+        cout << endl << "Do you want to continue (Type y or n): ";
         cin >> ch;
 
     } while (ch == 'Y' || ch == 'y');
