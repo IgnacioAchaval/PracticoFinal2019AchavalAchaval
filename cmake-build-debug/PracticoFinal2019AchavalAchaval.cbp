@@ -8,38 +8,38 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/ignacioachaval/CLionProjects/PracticoFinal2019AchavalAchaval/cmake-build-debug"/>
+				<Option working_dir="/Users/ignacioachaval/workspace/src/github.com/IgnacioAchaval/PracticoFinal2019AchavalAchaval/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/ignacioachaval/CLionProjects/PracticoFinal2019AchavalAchaval/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/ignacioachaval/CLionProjects/PracticoFinal2019AchavalAchaval/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/ignacioachaval/CLionProjects/PracticoFinal2019AchavalAchaval/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/ignacioachaval/CLionProjects/PracticoFinal2019AchavalAchaval/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/ignacioachaval/workspace/src/github.com/IgnacioAchaval/PracticoFinal2019AchavalAchaval/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/ignacioachaval/workspace/src/github.com/IgnacioAchaval/PracticoFinal2019AchavalAchaval/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/ignacioachaval/workspace/src/github.com/IgnacioAchaval/PracticoFinal2019AchavalAchaval/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/ignacioachaval/workspace/src/github.com/IgnacioAchaval/PracticoFinal2019AchavalAchaval/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/ignacioachaval/CLionProjects/PracticoFinal2019AchavalAchaval/cmake-build-debug"/>
+				<Option working_dir="/Users/ignacioachaval/workspace/src/github.com/IgnacioAchaval/PracticoFinal2019AchavalAchaval/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/ignacioachaval/CLionProjects/PracticoFinal2019AchavalAchaval/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/ignacioachaval/CLionProjects/PracticoFinal2019AchavalAchaval/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/ignacioachaval/CLionProjects/PracticoFinal2019AchavalAchaval/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/ignacioachaval/CLionProjects/PracticoFinal2019AchavalAchaval/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/ignacioachaval/workspace/src/github.com/IgnacioAchaval/PracticoFinal2019AchavalAchaval/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/ignacioachaval/workspace/src/github.com/IgnacioAchaval/PracticoFinal2019AchavalAchaval/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/ignacioachaval/workspace/src/github.com/IgnacioAchaval/PracticoFinal2019AchavalAchaval/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/ignacioachaval/workspace/src/github.com/IgnacioAchaval/PracticoFinal2019AchavalAchaval/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Users/ignacioachaval/CLionProjects/PracticoFinal2019AchavalAchaval/cmake-build-debug"/>
+				<Option working_dir="/Users/ignacioachaval/workspace/src/github.com/IgnacioAchaval/PracticoFinal2019AchavalAchaval/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/ignacioachaval/CLionProjects/PracticoFinal2019AchavalAchaval/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/ignacioachaval/CLionProjects/PracticoFinal2019AchavalAchaval/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/ignacioachaval/CLionProjects/PracticoFinal2019AchavalAchaval/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/ignacioachaval/CLionProjects/PracticoFinal2019AchavalAchaval/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/ignacioachaval/workspace/src/github.com/IgnacioAchaval/PracticoFinal2019AchavalAchaval/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/ignacioachaval/workspace/src/github.com/IgnacioAchaval/PracticoFinal2019AchavalAchaval/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/ignacioachaval/workspace/src/github.com/IgnacioAchaval/PracticoFinal2019AchavalAchaval/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/ignacioachaval/workspace/src/github.com/IgnacioAchaval/PracticoFinal2019AchavalAchaval/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="PracticoFinal2019AchavalAchaval">
-				<Option output="/Users/ignacioachaval/CLionProjects/PracticoFinal2019AchavalAchaval/cmake-build-debug/PracticoFinal2019AchavalAchaval" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/ignacioachaval/CLionProjects/PracticoFinal2019AchavalAchaval/cmake-build-debug"/>
+				<Option output="/Users/ignacioachaval/workspace/src/github.com/IgnacioAchaval/PracticoFinal2019AchavalAchaval/cmake-build-debug/PracticoFinal2019AchavalAchaval" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ignacioachaval/workspace/src/github.com/IgnacioAchaval/PracticoFinal2019AchavalAchaval/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -52,15 +52,15 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/ignacioachaval/CLionProjects/PracticoFinal2019AchavalAchaval/cmake-build-debug/Makefile&quot;  VERBOSE=1 PracticoFinal2019AchavalAchaval"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/ignacioachaval/CLionProjects/PracticoFinal2019AchavalAchaval/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/ignacioachaval/CLionProjects/PracticoFinal2019AchavalAchaval/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/ignacioachaval/CLionProjects/PracticoFinal2019AchavalAchaval/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/ignacioachaval/workspace/src/github.com/IgnacioAchaval/PracticoFinal2019AchavalAchaval/cmake-build-debug/Makefile&quot;  VERBOSE=1 PracticoFinal2019AchavalAchaval"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/ignacioachaval/workspace/src/github.com/IgnacioAchaval/PracticoFinal2019AchavalAchaval/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/ignacioachaval/workspace/src/github.com/IgnacioAchaval/PracticoFinal2019AchavalAchaval/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/ignacioachaval/workspace/src/github.com/IgnacioAchaval/PracticoFinal2019AchavalAchaval/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="PracticoFinal2019AchavalAchaval/fast">
-				<Option output="/Users/ignacioachaval/CLionProjects/PracticoFinal2019AchavalAchaval/cmake-build-debug/PracticoFinal2019AchavalAchaval" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/ignacioachaval/CLionProjects/PracticoFinal2019AchavalAchaval/cmake-build-debug"/>
+				<Option output="/Users/ignacioachaval/workspace/src/github.com/IgnacioAchaval/PracticoFinal2019AchavalAchaval/cmake-build-debug/PracticoFinal2019AchavalAchaval" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ignacioachaval/workspace/src/github.com/IgnacioAchaval/PracticoFinal2019AchavalAchaval/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -73,53 +73,53 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/ignacioachaval/CLionProjects/PracticoFinal2019AchavalAchaval/cmake-build-debug/Makefile&quot;  VERBOSE=1 PracticoFinal2019AchavalAchaval/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/ignacioachaval/CLionProjects/PracticoFinal2019AchavalAchaval/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/ignacioachaval/CLionProjects/PracticoFinal2019AchavalAchaval/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/ignacioachaval/CLionProjects/PracticoFinal2019AchavalAchaval/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/ignacioachaval/workspace/src/github.com/IgnacioAchaval/PracticoFinal2019AchavalAchaval/cmake-build-debug/Makefile&quot;  VERBOSE=1 PracticoFinal2019AchavalAchaval/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/ignacioachaval/workspace/src/github.com/IgnacioAchaval/PracticoFinal2019AchavalAchaval/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/ignacioachaval/workspace/src/github.com/IgnacioAchaval/PracticoFinal2019AchavalAchaval/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/ignacioachaval/workspace/src/github.com/IgnacioAchaval/PracticoFinal2019AchavalAchaval/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/ignacioachaval/CLionProjects/PracticoFinal2019AchavalAchaval/Arbol.cpp">
+		<Unit filename="/Users/ignacioachaval/workspace/src/github.com/IgnacioAchaval/PracticoFinal2019AchavalAchaval/Arbol.cpp">
 			<Option target="PracticoFinal2019AchavalAchaval"/>
 		</Unit>
-		<Unit filename="/Users/ignacioachaval/CLionProjects/PracticoFinal2019AchavalAchaval/Arbol.h">
+		<Unit filename="/Users/ignacioachaval/workspace/src/github.com/IgnacioAchaval/PracticoFinal2019AchavalAchaval/Arbol.h">
 			<Option target="PracticoFinal2019AchavalAchaval"/>
 		</Unit>
-		<Unit filename="/Users/ignacioachaval/CLionProjects/PracticoFinal2019AchavalAchaval/Arbolstr.cpp">
+		<Unit filename="/Users/ignacioachaval/workspace/src/github.com/IgnacioAchaval/PracticoFinal2019AchavalAchaval/Arbolstr.cpp">
 			<Option target="PracticoFinal2019AchavalAchaval"/>
 		</Unit>
-		<Unit filename="/Users/ignacioachaval/CLionProjects/PracticoFinal2019AchavalAchaval/Arbolstr.h">
+		<Unit filename="/Users/ignacioachaval/workspace/src/github.com/IgnacioAchaval/PracticoFinal2019AchavalAchaval/Arbolstr.h">
 			<Option target="PracticoFinal2019AchavalAchaval"/>
 		</Unit>
-		<Unit filename="/Users/ignacioachaval/CLionProjects/PracticoFinal2019AchavalAchaval/Lista.cpp">
+		<Unit filename="/Users/ignacioachaval/workspace/src/github.com/IgnacioAchaval/PracticoFinal2019AchavalAchaval/Lista.cpp">
 			<Option target="PracticoFinal2019AchavalAchaval"/>
 		</Unit>
-		<Unit filename="/Users/ignacioachaval/CLionProjects/PracticoFinal2019AchavalAchaval/Lista.h">
+		<Unit filename="/Users/ignacioachaval/workspace/src/github.com/IgnacioAchaval/PracticoFinal2019AchavalAchaval/Lista.h">
 			<Option target="PracticoFinal2019AchavalAchaval"/>
 		</Unit>
-		<Unit filename="/Users/ignacioachaval/CLionProjects/PracticoFinal2019AchavalAchaval/Nodo.cpp">
+		<Unit filename="/Users/ignacioachaval/workspace/src/github.com/IgnacioAchaval/PracticoFinal2019AchavalAchaval/Nodo.cpp">
 			<Option target="PracticoFinal2019AchavalAchaval"/>
 		</Unit>
-		<Unit filename="/Users/ignacioachaval/CLionProjects/PracticoFinal2019AchavalAchaval/Nodo.h">
+		<Unit filename="/Users/ignacioachaval/workspace/src/github.com/IgnacioAchaval/PracticoFinal2019AchavalAchaval/Nodo.h">
 			<Option target="PracticoFinal2019AchavalAchaval"/>
 		</Unit>
-		<Unit filename="/Users/ignacioachaval/CLionProjects/PracticoFinal2019AchavalAchaval/main.cpp">
+		<Unit filename="/Users/ignacioachaval/workspace/src/github.com/IgnacioAchaval/PracticoFinal2019AchavalAchaval/main.cpp">
 			<Option target="PracticoFinal2019AchavalAchaval"/>
 		</Unit>
-		<Unit filename="/Users/ignacioachaval/CLionProjects/PracticoFinal2019AchavalAchaval/nodoArbol.cpp">
+		<Unit filename="/Users/ignacioachaval/workspace/src/github.com/IgnacioAchaval/PracticoFinal2019AchavalAchaval/nodoArbol.cpp">
 			<Option target="PracticoFinal2019AchavalAchaval"/>
 		</Unit>
-		<Unit filename="/Users/ignacioachaval/CLionProjects/PracticoFinal2019AchavalAchaval/nodoArbol.h">
+		<Unit filename="/Users/ignacioachaval/workspace/src/github.com/IgnacioAchaval/PracticoFinal2019AchavalAchaval/nodoArbol.h">
 			<Option target="PracticoFinal2019AchavalAchaval"/>
 		</Unit>
-		<Unit filename="/Users/ignacioachaval/CLionProjects/PracticoFinal2019AchavalAchaval/nodoArbolstr.cpp">
+		<Unit filename="/Users/ignacioachaval/workspace/src/github.com/IgnacioAchaval/PracticoFinal2019AchavalAchaval/nodoArbolstr.cpp">
 			<Option target="PracticoFinal2019AchavalAchaval"/>
 		</Unit>
-		<Unit filename="/Users/ignacioachaval/CLionProjects/PracticoFinal2019AchavalAchaval/nodoArbolstr.h">
+		<Unit filename="/Users/ignacioachaval/workspace/src/github.com/IgnacioAchaval/PracticoFinal2019AchavalAchaval/nodoArbolstr.h">
 			<Option target="PracticoFinal2019AchavalAchaval"/>
 		</Unit>
-		<Unit filename="/Users/ignacioachaval/CLionProjects/PracticoFinal2019AchavalAchaval/CMakeLists.txt">
+		<Unit filename="/Users/ignacioachaval/workspace/src/github.com/IgnacioAchaval/PracticoFinal2019AchavalAchaval/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

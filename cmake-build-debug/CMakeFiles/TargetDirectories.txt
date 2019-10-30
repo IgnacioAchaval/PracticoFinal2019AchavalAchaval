@@ -1,3 +1,3 @@
-/Users/ignacioachaval/CLionProjects/PracticoFinal2019AchavalAchaval/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/ignacioachaval/CLionProjects/PracticoFinal2019AchavalAchaval/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/ignacioachaval/CLionProjects/PracticoFinal2019AchavalAchaval/cmake-build-debug/CMakeFiles/PracticoFinal2019AchavalAchaval.dir
+/Users/ignacioachaval/workspace/src/github.com/IgnacioAchaval/PracticoFinal2019AchavalAchaval/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/ignacioachaval/workspace/src/github.com/IgnacioAchaval/PracticoFinal2019AchavalAchaval/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/ignacioachaval/workspace/src/github.com/IgnacioAchaval/PracticoFinal2019AchavalAchaval/cmake-build-debug/CMakeFiles/PracticoFinal2019AchavalAchaval.dir
