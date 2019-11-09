@@ -17,8 +17,6 @@ iostream
 -
 NodoArbolBinario.h
 /Users/ignacioachaval/workspace/src/github.com/IgnacioAchaval/PracticoFinal2019AchavalAchaval/NodoArbolBinario.h
-Arbol.h
-/Users/ignacioachaval/workspace/src/github.com/IgnacioAchaval/PracticoFinal2019AchavalAchaval/Arbol.h
 ArbolCtr.h
 /Users/ignacioachaval/workspace/src/github.com/IgnacioAchaval/PracticoFinal2019AchavalAchaval/ArbolCtr.h
 
@@ -29,8 +27,6 @@ iostream
 -
 NodoArbolCtr.h
 /Users/ignacioachaval/workspace/src/github.com/IgnacioAchaval/PracticoFinal2019AchavalAchaval/NodoArbolCtr.h
-Arbol.h
-/Users/ignacioachaval/workspace/src/github.com/IgnacioAchaval/PracticoFinal2019AchavalAchaval/Arbol.h
 
 /Users/ignacioachaval/workspace/src/github.com/IgnacioAchaval/PracticoFinal2019AchavalAchaval/Arbolstr.h
 nodoArbolstr.h

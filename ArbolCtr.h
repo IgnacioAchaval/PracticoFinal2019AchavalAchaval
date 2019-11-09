@@ -10,7 +10,7 @@
 #include <stdexcept>
 #include <iostream>
 #include "NodoArbolCtr.h"
-#include "Arbol.h"
+//#include "Arbol.h"
 
 using namespace std;
 
@@ -51,6 +51,9 @@ public:
     ~ArbolCtr();
 
     bool esVacio();
+
+    void vaciar();
+
 
     void print();
 
@@ -172,6 +175,11 @@ bool ArbolCtr<T>::esVacio() {
     return raiz == nullptr;
 }
 
+template<class T>
+void ArbolCtr<T>::vaciar() {
+    raiz == nullptr;
+}
+
 
 /**
  * Recorre un árbol en preorden
@@ -280,8 +288,8 @@ void ArbolCtr<T>::inorder(NodoArbolCtr<T> *r) {
         return;
 
     inorder(r->izq);
-    std::cout << r->dato << '\n';
-    inorder(r->der);
+    cout << r->dato << r->contador << '\n';
+    inorder(r->izq);
 }
 
 template<class T>
@@ -368,7 +376,7 @@ void ArbolCtr<T>::print(bool esDerecho, const std::string& identacion, NodoArbol
     }
     std::cout << "-- ";
     std::cout << r->dato << std::endl;
-    if (r->izq != NULL) {
+    if (r->izq != nullptr) {
         print(false, identacion + (esDerecho ? "|    " : "     "), r->izq);
     }
 }

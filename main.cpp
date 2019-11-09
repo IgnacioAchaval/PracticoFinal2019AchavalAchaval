@@ -99,39 +99,39 @@ int main(int argc, char *argv[]) {
             case 2 :
                 cout << "Cantidad de palabras = " << sbbst.countNodes() << endl;
                 break;
-          //  case 3:
-           //     cout << "Ingrese la palabra a buscar: ";
-           //     cin >> val;
-               // if (sbbst.search(val)) {
-            //        cout << val << " se encontro en el Arbol ";
-            //        cout << sbbst.search(val) << ' ';
-            //        cout << "con una cantidad total de " << sbbst.searchCont(val) << " ocurrencias";
-            //    } else
-            //        cout << val << " No se encontro" << endl;
-            //    break;
-            //case 4 :
-            //    cout << "Estado del arbol = ";
-            //    if (sbbst.isEmpty())
-             //       cout << "Arbol vacio" << endl;
-            //    else
-            //        cout << "Arbol No vacio" << endl;
-            //    break;
-            //case 5 :
-            //    cout << endl << "Se vacio el arbol" << endl;
-            // //   sbbst.makeEmpty();
-                //    AOcu.vaciarArbol();
-                //    break;
+            case 3:
+                cout << "Ingrese la palabra a buscar: ";
+                cin >> val;
+                if (sbbst.search(val)) {
+                    cout << val << " se encontro en el Arbol ";
+                    cout << sbbst.search(val) << ' ';
+                    cout << "con una cantidad total de " << sbbst.searchCont(val) << " ocurrencias";
+                } else
+                    cout << val << " No se encontro" << endl;
+                break;
+            case 4 :
+                cout << "Estado del arbol = ";
+                if (sbbst.esVacio())
+                    cout << "Arbol vacio" << endl;
+                else
+                    cout << "Arbol No vacio" << endl;
+                break;
+            case 5 :
+                cout << endl << "Se vacio el arbol" << endl;
+                sbbst.vaciar();
+                    AOcu.vaciar();
+                    break;
             case 6 :
                 sbbst.insertarOrden(&AOcu);
                 cout << endl << "Mostrar por orden de ocurrencias: " << endl;
                 AOcu.inorder();
-                //AOcu.vaciarArbol();
+                //AOcu.vaciar();
                 break;
             case 7 :
                 cout << endl << "Listado por orden de Alfabetico : " << endl;
                 sbbst.inorder();
                 cout << endl;
-                sbbst.insertarOrden(&AOcu);
+                //sbbst.insertarOrden(&AOcu);
                 break;
             default :
                 cout << "Opcion Incorrecta\n ";
