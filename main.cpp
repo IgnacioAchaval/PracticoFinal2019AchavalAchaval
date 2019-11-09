@@ -2,7 +2,8 @@
 #include <iostream>
 #include <fstream>
 #include "Arbolstr.h"
-
+#include "ArbolBinario.h"
+#include <vector>
 using namespace std;
 
 
@@ -18,7 +19,6 @@ int main(int argc, char *argv[]) {
 
     for (int i = 1; i < argc; i++) {
         if (argv[i][0] == '-')            // el argumento empieza con guion
-
         {
             if (argv[i][1] == 'm')
                 mostrar = 1;
@@ -27,16 +27,18 @@ int main(int argc, char *argv[]) {
                 arcExcl = argv[i + 1];
                 i++;
             }
-
-
-        } else {
+        }
+        else {
             archivo = argv[i];
         }
     }
 
+
+
+
     cout << argc << "\n" << argv[0];//<< "\n" << argv[2];
     ifstream myArchivo(archivo);
-    myArchivo.open("../archivo.txt"); //agregado 2019
+    myArchivo.open("../archivo.txt");
 
     if (myArchivo.is_open()) {
         while (getline(myArchivo, linea)) {
@@ -45,7 +47,7 @@ int main(int argc, char *argv[]) {
             contLetra += linea.length();
             palInicio = 0;
             for (int i = 0; i < linea.length(); i++) {
-                if (linea[i] == ' ' || linea[i] == ',' || linea[i] == '.' || linea[i] == '!' || linea[i] == '?' ||
+                if (linea[i] == ' ' || linea[i] == ',' || linea[i] == '.' || linea[i] == '!' || linea[i] == '?' ||  linea[i] == ':' || linea[i] == ';' ||
                     i == linea.length() - 1) {
                     palabra = linea.substr(palInicio, i - palInicio);
                     palInicio = i + 1;
@@ -62,20 +64,20 @@ int main(int argc, char *argv[]) {
         cout << " Error al abrir el archivo";
     }
 
-    cout << endl << endl;
-    cout << "-----------------------------------------------------------------------------------------------" << endl;
-    cout << "                                      Lineas: " << contLinea << endl;
-    cout << "                                      Letras: " << contLetra << endl;
-    cout << "                                      Palabras: " << contPalabra << endl;
-    cout << "-----------------------------------------------------------------------------------------------" << endl;
-
-    AVLsearchTree sbbst;
-    Arbol AOcu;
+    ArbolBinario<string> sbbst;
+    ArbolCtr<string> AOcu;
     string val;
     char ch;
 
     do {
-        cout << "\nOperaciones de Arbol:\n";
+        cout << endl << endl << "Segundo Parcial Programacion III" << endl;
+        cout << "-----------------------------------------------------------------------------------------------" << endl;
+        cout << "                                      Lineas: " << contLinea << endl;
+        cout << "                                      Letras: " << contLetra << endl;
+        cout << "                                      Palabras: " << contPalabra << endl;
+        cout << "-----------------------------------------------------------------------------------------------" << endl;
+
+        cout << endl << "Operaciones de Arbol:" << endl;
         cout << "1. Armar Arboles " << endl;
         cout << "2. Contar Palabras diferentes" << endl;
         cout << "3. Buscar Ocurrencia" << endl;
@@ -90,43 +92,43 @@ int main(int argc, char *argv[]) {
             case 1 :
                 cout << "Arbol Palabras Armado";
                 for (int i = 0; i < lista.size(); i++)
-                    sbbst.insert(lista[i]);
+                    sbbst.put(lista[i]);
 
 
                 break;
             case 2 :
                 cout << "Cantidad de palabras = " << sbbst.countNodes() << endl;
                 break;
-            case 3:
-                cout << "Ingrese la palabra a buscar: ";
-                cin >> val;
-                if (sbbst.search(val)) {
-                    cout << val << " se encontro en el Arbol ";
-                    cout << sbbst.search(val) << ' ';
-                    cout << "con una cantidad total de " << sbbst.searchCont(val) << " ocurrencias";
-                } else
-                    cout << val << " No se encontro" << endl;
-                break;
-            case 4 :
-                cout << "Estado del arbol = ";
-                if (sbbst.isEmpty())
-                    cout << "Arbol vacio" << endl;
-                else
-                    cout << "Arbol No vacio" << endl;
-                break;
-            case 5 :
-                cout << endl <<"Se vacio el arbol" << endl;
-                sbbst.makeEmpty();
-                AOcu.vaciarArbol();
-                break;
+          //  case 3:
+           //     cout << "Ingrese la palabra a buscar: ";
+           //     cin >> val;
+               // if (sbbst.search(val)) {
+            //        cout << val << " se encontro en el Arbol ";
+            //        cout << sbbst.search(val) << ' ';
+            //        cout << "con una cantidad total de " << sbbst.searchCont(val) << " ocurrencias";
+            //    } else
+            //        cout << val << " No se encontro" << endl;
+            //    break;
+            //case 4 :
+            //    cout << "Estado del arbol = ";
+            //    if (sbbst.isEmpty())
+             //       cout << "Arbol vacio" << endl;
+            //    else
+            //        cout << "Arbol No vacio" << endl;
+            //    break;
+            //case 5 :
+            //    cout << endl << "Se vacio el arbol" << endl;
+            // //   sbbst.makeEmpty();
+                //    AOcu.vaciarArbol();
+                //    break;
             case 6 :
                 sbbst.insertarOrden(&AOcu);
                 cout << endl << "Mostrar por orden de ocurrencias: " << endl;
-                AOcu.mostrarOrden();
-                AOcu.vaciarArbol();
+                AOcu.inorder();
+                //AOcu.vaciarArbol();
                 break;
             case 7 :
-                cout << endl <<"Listado por orden de Alfabetico : " << endl;
+                cout << endl << "Listado por orden de Alfabetico : " << endl;
                 sbbst.inorder();
                 cout << endl;
                 sbbst.insertarOrden(&AOcu);
@@ -135,7 +137,7 @@ int main(int argc, char *argv[]) {
                 cout << "Opcion Incorrecta\n ";
                 break;
         }
-        cout << endl << "Do you want to continue (Type y or n): ";
+        cout << endl << "Desea Continuar? (Type y or n): ";
         cin >> ch;
 
     } while (ch == 'Y' || ch == 'y');

@@ -15,7 +15,7 @@ public:
 
     //Constructores
     Arbol() {
-        raiz = NULL;
+        raiz = nullptr;
     }
 
     Arbol(string d, int c) {
@@ -23,22 +23,25 @@ public:
     }
 
     void vaciarArbol() {
-        raiz = NULL;
+        raiz = nullptr;
     }
 
     void insertar(string d, int c) {
-        if (raiz != NULL) {
+        if (raiz != nullptr) {
             raiz->insertar(d, c);
             c++;
         } else
             raiz = new nodoArbol(d, c);
     }
 
+
     // Muestras
     void mostrarOrden() {
-        if (raiz != NULL)
+        if (raiz != nullptr)
             raiz->mostrarOrden();
     }
+
+
 };
 
 #endif //PRACTICOFINAL2019ACHAVALACHAVAL_ARBOL_H

@@ -15,17 +15,17 @@ private:
 public:
     /* Constructor */
     AVLsearchTree() {
-        root = NULL;
+        root = nullptr;
     }
 
     /* Function to check if tree is empty */
     bool isEmpty() {
-        return root == NULL;
+        return root == nullptr;
     }
 
     /* Make the tree logically empty */
     void makeEmpty() {
-        root = NULL;
+        root = nullptr;
     }
 
 
@@ -36,7 +36,7 @@ public:
 
     /* Function to get height of node */
     int height(AVLtreeNode *t) {
-        return t == NULL ? -1 : t->height;
+        return t == nullptr ? -1 : t->height;
     }
 
     /* Function to max of left/right node */
@@ -46,7 +46,7 @@ public:
 
     /* Function to insert dato recursively */
     AVLtreeNode *insert(string x, AVLtreeNode *t) {
-        if (t == NULL) {
+        if (t == nullptr) {
             t = new AVLtreeNode(x, 1);
         } else if (x < t->dato) {
             t->left = insert(x, t->left);
@@ -115,7 +115,7 @@ public:
     }
 
     int countNodes(AVLtreeNode *r) {
-        if (r == NULL)
+        if (r == nullptr)
             return 0;
         else {
             int l = 1;
@@ -132,7 +132,7 @@ public:
 
     bool search(AVLtreeNode *r, string val) {
         bool found = false;
-        while ((r != NULL) && !found) {
+        while ((r != nullptr) && !found) {
             string rval = r->dato;
             if (val < rval)
                 r = r->left;
@@ -154,7 +154,7 @@ public:
 
     int searchCont(AVLtreeNode *r, string val) {
         bool found = false;
-        while ((r != NULL) && !found) {
+        while ((r != nullptr) && !found) {
             string rval = r->dato;
             if (val < rval)
                 r = r->left;
@@ -176,7 +176,7 @@ public:
     }
 
     void inorder(AVLtreeNode *r) {
-        if (r != NULL) {
+        if (r != nullptr) {
             inorder(r->left);
             cout << r->dato << "  " << endl;
             inorder(r->right);
@@ -189,7 +189,7 @@ public:
 
 
     void insertarOrden(Arbol *a, AVLtreeNode *r) {
-        if (r != NULL) {
+        if (r != nullptr) {
             insertarOrden(a, r->left);
             a->insertar(r->dato, r->contador);
             insertarOrden(a, r->right);
@@ -197,13 +197,14 @@ public:
         //a->insertar(dato,contador);
     }
 
+
     /* Function for preorder traversal */
     void preorder() {
         preorder(root);
     }
 
     void preorder(AVLtreeNode *r) {
-        if (r != NULL) {
+        if (r != nullptr) {
             cout << r->dato << "  ";
             preorder(r->left);
             preorder(r->right);
@@ -216,7 +217,7 @@ public:
     }
 
     void postorder(AVLtreeNode *r) {
-        if (r != NULL) {
+        if (r != nullptr) {
             postorder(r->left);
             postorder(r->right);
             cout << r->dato << "  ";

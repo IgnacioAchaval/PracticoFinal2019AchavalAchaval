@@ -2,12 +2,16 @@
 // Created by Ignacio Achaval on 25/10/2019.
 //
 
+/*Estos nodos arbol en vez de ser nodos convencionales (como los que vimos en clase), guardan un dato extra. O sea
+ * tienen la palabra misma que se quiere guardar y un contador que se inicia en uno cuando se crea el nodo.
+ * si queremos ingresar una palabra al arbol y ya existe, en vez de ingresarla abajo, no lo hace y suma en uno el contador.
+ */
+
 #ifndef PRACTICOFINAL2019ACHAVALACHAVAL_NODOARBOL_H
 #define PRACTICOFINAL2019ACHAVALACHAVAL_NODOARBOL_H
 
 #include <iostream>
 #include "Lista.h"
-#include <vector>
 
 using namespace std;
 
@@ -20,16 +24,16 @@ private:
 public:
     // Constructores.
     nodoArbol(string d, int c) {
-        izq = NULL;
-        der = NULL;
-        dato.insert(0, d);
+        izq = nullptr;
+        der = nullptr;
+        dato = d;
         contador = c;
     }
 
     // Access methods
 
     void setDato(string d) {
-        dato.insert(0, d);
+        dato = d;
     }
 
     void setContador(int contador) {
@@ -65,42 +69,48 @@ public:
     void insertar(string d, int c) {
 
         if (contador < c) {
-            if (der != NULL)
+            if (der != nullptr)
                 der->insertar(d, c);
             else
                 der = new nodoArbol(d, c);
 
 
         } else if (contador > c) {
-            if (izq != NULL)
+            if (izq != nullptr)
                 izq->insertar(d, c);
             else
                 izq = new nodoArbol(d, c);
         } else if (contador == c) {
-            dato.insert(0, d);
+            if(der!=nullptr)
+                der->insertar(d,c);
+            else
+                der = new nodoArbol(d,c);
         }
     }
 
     void insertar(nodoArbol *n) {
-        if (n != NULL)
+        if (n != nullptr)
             if (contador < n->getContador()) {
-                if (der != NULL)
+                if (der != nullptr)
                     der->insertar(n);
-                else
+                else{
                     der = n;
+                }
             } else {
-                if (izq != NULL)
+                if (izq != nullptr)
                     izq->insertar(n);
-                else
+                else{
                     izq = n;
+
+                }
             }
     }
 
     void mostrarOrden() {
-        if (der != NULL)
+        if (der != nullptr)
             der->mostrarOrden();
         cout << ' ' << dato << ' ' << contador << endl;
-        if (izq != NULL)
+        if (izq != nullptr)
             izq->mostrarOrden();
     }
 
@@ -111,7 +121,7 @@ public:
 
         if (d != dato) {
             if (d > dato) {
-                if (der == NULL)
+                if (der == nullptr)
                     return -1;
                 if (der->borrar(d, c, this, 0) == 1) {
                     c--;
@@ -119,7 +129,7 @@ public:
                 }
 
             } else {
-                if (izq == NULL)
+                if (izq == nullptr)
                     return -1;
                 if (izq->borrar(d, c, this, 1)) {
                     c--;

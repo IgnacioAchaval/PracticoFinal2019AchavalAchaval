@@ -2,6 +2,8 @@
 // Created by Ignacio Achaval on 25/10/2019.
 //
 
+
+
 #ifndef PRACTICOFINAL2019ACHAVALACHAVAL_NODOARBOLSTR_H
 #define PRACTICOFINAL2019ACHAVALACHAVAL_NODOARBOLSTR_H
 
@@ -18,8 +20,8 @@ public:
     /* Constructor */
     AVLtreeNode()
     {
-        left = NULL;
-        right = NULL;
+        left = nullptr;
+        right = nullptr;
         dato = "";
         contador=0;
         height = 0;
@@ -28,8 +30,8 @@ public:
     /* Constructor */
     AVLtreeNode(string n, int c)
     {
-        left = NULL;
-        right = NULL;
+        left = nullptr;
+        right = nullptr;
         dato = n;
         contador=c;
         height = 0;

@@ -80,40 +80,34 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/ignacioachaval/workspace/src/github.com/IgnacioAchaval/PracticoFinal2019AchavalAchaval/Arbol.cpp">
-			<Option target="PracticoFinal2019AchavalAchaval"/>
-		</Unit>
 		<Unit filename="/Users/ignacioachaval/workspace/src/github.com/IgnacioAchaval/PracticoFinal2019AchavalAchaval/Arbol.h">
 			<Option target="PracticoFinal2019AchavalAchaval"/>
 		</Unit>
-		<Unit filename="/Users/ignacioachaval/workspace/src/github.com/IgnacioAchaval/PracticoFinal2019AchavalAchaval/Arbolstr.cpp">
+		<Unit filename="/Users/ignacioachaval/workspace/src/github.com/IgnacioAchaval/PracticoFinal2019AchavalAchaval/ArbolBinario.h">
+			<Option target="PracticoFinal2019AchavalAchaval"/>
+		</Unit>
+		<Unit filename="/Users/ignacioachaval/workspace/src/github.com/IgnacioAchaval/PracticoFinal2019AchavalAchaval/ArbolCtr.h">
 			<Option target="PracticoFinal2019AchavalAchaval"/>
 		</Unit>
 		<Unit filename="/Users/ignacioachaval/workspace/src/github.com/IgnacioAchaval/PracticoFinal2019AchavalAchaval/Arbolstr.h">
 			<Option target="PracticoFinal2019AchavalAchaval"/>
 		</Unit>
-		<Unit filename="/Users/ignacioachaval/workspace/src/github.com/IgnacioAchaval/PracticoFinal2019AchavalAchaval/Lista.cpp">
-			<Option target="PracticoFinal2019AchavalAchaval"/>
-		</Unit>
 		<Unit filename="/Users/ignacioachaval/workspace/src/github.com/IgnacioAchaval/PracticoFinal2019AchavalAchaval/Lista.h">
-			<Option target="PracticoFinal2019AchavalAchaval"/>
-		</Unit>
-		<Unit filename="/Users/ignacioachaval/workspace/src/github.com/IgnacioAchaval/PracticoFinal2019AchavalAchaval/Nodo.cpp">
 			<Option target="PracticoFinal2019AchavalAchaval"/>
 		</Unit>
 		<Unit filename="/Users/ignacioachaval/workspace/src/github.com/IgnacioAchaval/PracticoFinal2019AchavalAchaval/Nodo.h">
 			<Option target="PracticoFinal2019AchavalAchaval"/>
 		</Unit>
+		<Unit filename="/Users/ignacioachaval/workspace/src/github.com/IgnacioAchaval/PracticoFinal2019AchavalAchaval/NodoArbolBinario.h">
+			<Option target="PracticoFinal2019AchavalAchaval"/>
+		</Unit>
+		<Unit filename="/Users/ignacioachaval/workspace/src/github.com/IgnacioAchaval/PracticoFinal2019AchavalAchaval/NodoArbolCtr.h">
+			<Option target="PracticoFinal2019AchavalAchaval"/>
+		</Unit>
 		<Unit filename="/Users/ignacioachaval/workspace/src/github.com/IgnacioAchaval/PracticoFinal2019AchavalAchaval/main.cpp">
 			<Option target="PracticoFinal2019AchavalAchaval"/>
 		</Unit>
-		<Unit filename="/Users/ignacioachaval/workspace/src/github.com/IgnacioAchaval/PracticoFinal2019AchavalAchaval/nodoArbol.cpp">
-			<Option target="PracticoFinal2019AchavalAchaval"/>
-		</Unit>
 		<Unit filename="/Users/ignacioachaval/workspace/src/github.com/IgnacioAchaval/PracticoFinal2019AchavalAchaval/nodoArbol.h">
-			<Option target="PracticoFinal2019AchavalAchaval"/>
-		</Unit>
-		<Unit filename="/Users/ignacioachaval/workspace/src/github.com/IgnacioAchaval/PracticoFinal2019AchavalAchaval/nodoArbolstr.cpp">
 			<Option target="PracticoFinal2019AchavalAchaval"/>
 		</Unit>
 		<Unit filename="/Users/ignacioachaval/workspace/src/github.com/IgnacioAchaval/PracticoFinal2019AchavalAchaval/nodoArbolstr.h">
