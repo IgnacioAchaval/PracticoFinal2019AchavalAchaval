@@ -12,19 +12,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="935f1b60-a338-4032-9525-9734440976bf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/diccionario.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ArbolBinario.h" beforeDir="false" afterPath="$PROJECT_DIR$/ArbolBinario.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ArbolCtr.h" beforeDir="false" afterPath="$PROJECT_DIR$/ArbolCtr.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lista.h" beforeDir="false" afterPath="$PROJECT_DIR$/Lista.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Nodo.h" beforeDir="false" afterPath="$PROJECT_DIR$/Nodo.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NodoArbolBinario.h" beforeDir="false" afterPath="$PROJECT_DIR$/NodoArbolBinario.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NodoArbolCtr.h" beforeDir="false" afterPath="$PROJECT_DIR$/NodoArbolCtr.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/archivo.txt" beforeDir="false" afterPath="$PROJECT_DIR$/archivo.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PracticoFinal2019AchavalAchaval.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PracticoFinal2019AchavalAchaval.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PracticoFinal2019AchavalAchaval.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PracticoFinal2019AchavalAchaval.dir/main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/PracticoFinal2019AchavalAchaval" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/PracticoFinal2019AchavalAchaval" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Arbol.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Arbolstr.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/PracticoFinal2019AchavalAchaval.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/PracticoFinal2019AchavalAchaval.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nodoArbol.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nodoArbolstr.h" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -124,7 +119,7 @@
       <workItem from="1573219930496" duration="6692000" />
       <workItem from="1573323936013" duration="42822000" />
       <workItem from="1573844177583" duration="28000" />
-      <workItem from="1573926463820" duration="14873000" />
+      <workItem from="1573926463820" duration="15459000" />
     </task>
     <servers />
   </component>

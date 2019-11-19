@@ -1,7 +1,6 @@
 
 #include <iostream>
 #include <fstream>
-#include "Arbolstr.h"
 #include "ArbolBinario.h"
 #include <vector>
 #include <algorithm>

@@ -3,4 +3,4 @@ project(PracticoFinal2019AchavalAchaval)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(PracticoFinal2019AchavalAchaval main.cpp nodoArbol.h Lista.h Nodo.h Arbol.h Arbolstr.h nodoArbolstr.h NodoArbolBinario.h ArbolBinario.h NodoArbolCtr.h ArbolCtr.h)
+add_executable(PracticoFinal2019AchavalAchaval main.cpp Lista.h Nodo.h NodoArbolBinario.h ArbolBinario.h NodoArbolCtr.h ArbolCtr.h)

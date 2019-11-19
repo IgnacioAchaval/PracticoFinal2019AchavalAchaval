@@ -362,7 +362,7 @@ void Lista<T>::print() {
     Nodo<T> *aux = inicio;
 
     while (aux != nullptr) {
-        std::cout << aux->getDato() << endl;
+        std::cout << aux->getDato() << std::endl;
         aux = aux->getSiguiente();
     }
 }
