@@ -5,11 +5,12 @@
 #ifndef PRACTICOFINAL2019ACHAVALACHAVAL_NODOARBOLCTR_H
 #define PRACTICOFINAL2019ACHAVALACHAVAL_NODOARBOLCTR_H
 
+#include "Lista.h"
 
 template<class T>
 class NodoArbolCtr {
 public:
-    T dato;
+    Lista<T> dato;
     NodoArbolCtr<T> *izq, *der;
     int altura;
     int contador;
@@ -18,22 +19,21 @@ public:
         der = izq = nullptr;
         altura = 0;
         contador = c;
-        dato = d;
+        dato.insertarPrimero(d);
     }
 
-    void setContador(int contador) {
-        NodoArbolCtr::contador = contador;
+    void setContador(int c) {
+        NodoArbolCtr::contador = c;
     }
 
     int getContador() {
         return contador;
     }
-
-    void setDato(int dato) {
-        NodoArbolCtr::dato = dato;
+    void setDato(T d) {
+        NodoArbolCtr::dato.insertarPrimero(d);
     }
 
-    int getDato() {
+    T getDato() {
         return dato;
     };
 };

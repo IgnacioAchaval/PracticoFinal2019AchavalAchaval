@@ -12,9 +12,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="935f1b60-a338-4032-9525-9734440976bf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/diccionario.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ArbolBinario.h" beforeDir="false" afterPath="$PROJECT_DIR$/ArbolBinario.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ArbolCtr.h" beforeDir="false" afterPath="$PROJECT_DIR$/ArbolCtr.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lista.h" beforeDir="false" afterPath="$PROJECT_DIR$/Lista.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Nodo.h" beforeDir="false" afterPath="$PROJECT_DIR$/Nodo.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NodoArbolBinario.h" beforeDir="false" afterPath="$PROJECT_DIR$/NodoArbolBinario.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NodoArbolCtr.h" beforeDir="false" afterPath="$PROJECT_DIR$/NodoArbolCtr.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/archivo.txt" beforeDir="false" afterPath="$PROJECT_DIR$/archivo.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PracticoFinal2019AchavalAchaval.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PracticoFinal2019AchavalAchaval.dir/CXX.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PracticoFinal2019AchavalAchaval.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PracticoFinal2019AchavalAchaval.dir/main.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/PracticoFinal2019AchavalAchaval" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/PracticoFinal2019AchavalAchaval" afterDir="false" />
@@ -34,6 +40,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
   <component name="ProjectId" id="1SiCp9GaGtjRxGiEIQVz5z5XVE2" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -41,9 +48,14 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ejercicios-2018-IgnacioAchaval" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="Errors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -57,12 +69,33 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="PracticoFinal2019AchavalAchaval" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PracticoFinal2019AchavalAchaval" TARGET_NAME="PracticoFinal2019AchavalAchaval" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="PracticoFinal2019AchavalAchaval" RUN_TARGET_NAME="PracticoFinal2019AchavalAchaval">
+  <component name="RunManager" selected="CMake Application.PracticoFinal2019AchavalAchaval (1)">
+    <configuration name="PracticoFinal2019AchavalAchaval (1)" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PracticoFinal2019AchavalAchaval" TARGET_NAME="PracticoFinal2019AchavalAchaval" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="PracticoFinal2019AchavalAchaval" RUN_TARGET_NAME="PracticoFinal2019AchavalAchaval">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PracticoFinal2019AchavalAchaval (2)" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PracticoFinal2019AchavalAchaval" TARGET_NAME="PracticoFinal2019AchavalAchaval" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="PracticoFinal2019AchavalAchaval" RUN_TARGET_NAME="PracticoFinal2019AchavalAchaval">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PracticoFinal2019AchavalAchaval (3)" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PracticoFinal2019AchavalAchaval" TARGET_NAME="PracticoFinal2019AchavalAchaval" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="PracticoFinal2019AchavalAchaval" RUN_TARGET_NAME="PracticoFinal2019AchavalAchaval">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="excluir" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="-palabras pp.txt" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PracticoFinal2019AchavalAchaval" TARGET_NAME="PracticoFinal2019AchavalAchaval" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="PracticoFinal2019AchavalAchaval" RUN_TARGET_NAME="PracticoFinal2019AchavalAchaval">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.excluir" />
+      <item itemvalue="CMake Application.PracticoFinal2019AchavalAchaval (1)" />
+      <item itemvalue="CMake Application.PracticoFinal2019AchavalAchaval (2)" />
+      <item itemvalue="CMake Application.PracticoFinal2019AchavalAchaval (3)" />
+    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -89,7 +122,9 @@
       <workItem from="1572988592159" duration="11538000" />
       <workItem from="1573132634251" duration="5812000" />
       <workItem from="1573219930496" duration="6692000" />
-      <workItem from="1573323936013" duration="8945000" />
+      <workItem from="1573323936013" duration="42822000" />
+      <workItem from="1573844177583" duration="28000" />
+      <workItem from="1573926463820" duration="14873000" />
     </task>
     <servers />
   </component>

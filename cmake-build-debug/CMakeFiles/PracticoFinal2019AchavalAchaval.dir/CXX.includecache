@@ -35,20 +35,16 @@ Arbol.h
 /Users/ignacioachaval/workspace/src/github.com/IgnacioAchaval/PracticoFinal2019AchavalAchaval/Arbol.h
 
 /Users/ignacioachaval/workspace/src/github.com/IgnacioAchaval/PracticoFinal2019AchavalAchaval/Lista.h
-iostream
--
 Nodo.h
 /Users/ignacioachaval/workspace/src/github.com/IgnacioAchaval/PracticoFinal2019AchavalAchaval/Nodo.h
 
 /Users/ignacioachaval/workspace/src/github.com/IgnacioAchaval/PracticoFinal2019AchavalAchaval/Nodo.h
-iostream
--
-string
--
 
 /Users/ignacioachaval/workspace/src/github.com/IgnacioAchaval/PracticoFinal2019AchavalAchaval/NodoArbolBinario.h
 
 /Users/ignacioachaval/workspace/src/github.com/IgnacioAchaval/PracticoFinal2019AchavalAchaval/NodoArbolCtr.h
+Lista.h
+/Users/ignacioachaval/workspace/src/github.com/IgnacioAchaval/PracticoFinal2019AchavalAchaval/Lista.h
 
 /Users/ignacioachaval/workspace/src/github.com/IgnacioAchaval/PracticoFinal2019AchavalAchaval/main.cpp
 iostream
@@ -60,6 +56,8 @@ Arbolstr.h
 ArbolBinario.h
 /Users/ignacioachaval/workspace/src/github.com/IgnacioAchaval/PracticoFinal2019AchavalAchaval/ArbolBinario.h
 vector
+-
+algorithm
 -
 
 /Users/ignacioachaval/workspace/src/github.com/IgnacioAchaval/PracticoFinal2019AchavalAchaval/nodoArbol.h

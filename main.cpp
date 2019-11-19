@@ -4,6 +4,7 @@
 #include "Arbolstr.h"
 #include "ArbolBinario.h"
 #include <vector>
+#include <algorithm>
 using namespace std;
 
 
@@ -32,9 +33,6 @@ int main(int argc, char *argv[]) {
             archivo = argv[i];
         }
     }
-
-
-
 
     cout << argc << "\n" << argv[0];//<< "\n" << argv[2];
     ifstream myArchivo(archivo);
@@ -68,7 +66,7 @@ int main(int argc, char *argv[]) {
     ArbolCtr<string> AOcu;
     string val;
     char ch;
-
+    int n;
     do {
         cout << endl << endl << "Segundo Parcial Programacion III" << endl;
         cout << "-----------------------------------------------------------------------------------------------" << endl;
@@ -91,23 +89,44 @@ int main(int argc, char *argv[]) {
         switch (opcion) {
             case 1 :
                 cout << "Arbol Palabras Armado";
-                for (int i = 0; i < lista.size(); i++)
+                for (int i = 0; i < lista.size(); i++) {
+  //                  transform(lista[i].begin(), lista[i].end(), lista[i].begin(), ::tolower);
                     sbbst.put(lista[i]);
-
+                }
 
                 break;
             case 2 :
                 cout << "Cantidad de palabras = " << sbbst.countNodes() << endl;
                 break;
-            case 3:
-                cout << "Ingrese la palabra a buscar: ";
-                cin >> val;
-                if (sbbst.search(val)) {
-                    cout << val << " se encontro en el Arbol ";
-                    cout << sbbst.search(val) << ' ';
-                    cout << "con una cantidad total de " << sbbst.searchCont(val) << " ocurrencias";
-                } else
-                    cout << val << " No se encontro" << endl;
+            case 3: {
+                cout << "Ingrese la cantidad de palabras que desea buscar: ";
+                cin >> n;
+                string busqueda[n];
+                cout << "Ingrese las palabras a buscar: ";
+                for (int i = 0; i <= n; i++) {
+                    cin >> val;
+                    busqueda[i] = val;
+                }
+
+                for (int i = 0; i <= n; i++) {
+                    if (sbbst.search(busqueda[i]) == busqueda[i])
+                        cout << busqueda[i] << " se encontro en el Arbol con una cantidad total de "
+                             << sbbst.searchCont(busqueda[i]) << " ocurrencias"<<endl;
+                    else
+                        cout << val << " No se encontro";
+                }
+                //me tira error al hacer el arreglo busquea[n]
+                //lo que deberia hacer es crear una lista con los elementos que quiero buscar
+                //y a partir de ahi crear un arreglo de dimension de la lista
+                //y ahi ordenarlo con quicksort
+                //AOcu.mostrarOcu(val);
+//                if (sbbst.search(val)) {
+//                    cout << val << " se encontro en el Arbol con una cantidad total de " << sbbst.searchCont(val) << " ocurrencias";
+//                } else
+//                    cout << val << " No se encontro" << endl;
+//Hacer lo siguiente: en el arbol de strings (ArbolBinario) hacer una busqueda de la palabra que me devuelva el dato y el contador
+//si son muchas las palabaras que se pasan como parametro, guardarlas en un arreglo. ordenar ese arreglo con un quicksort e imprimirlo.
+            }
                 break;
             case 4 :
                 cout << "Estado del arbol = ";

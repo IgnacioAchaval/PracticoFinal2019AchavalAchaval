@@ -46,6 +46,8 @@ public:
 
     void inorder();
 
+    void mostrarOcu(T arg);
+
     void postorder();
 
     ~ArbolCtr();
@@ -65,6 +67,8 @@ private:
     void preorder(NodoArbolCtr<T> *r);
 
     void inorder(NodoArbolCtr<T> *r);
+
+    void mostrarOcu(NodoArbolCtr<T> *r, T arg);
 
     void posorder(NodoArbolCtr<T> *r);
 
@@ -177,7 +181,7 @@ bool ArbolCtr<T>::esVacio() {
 
 template<class T>
 void ArbolCtr<T>::vaciar() {
-    raiz == nullptr;
+    raiz = nullptr;
 }
 
 
@@ -196,6 +200,11 @@ void ArbolCtr<T>::preorder() {
 template<class T>
 void ArbolCtr<T>::inorder() {
     inorder(raiz);
+}
+
+template<class T>
+void ArbolCtr<T>::mostrarOcu(T arg) {
+    mostrarOcu(raiz,arg);
 }
 
 
@@ -241,14 +250,9 @@ NodoArbolCtr<T> *ArbolCtr<T>::put(T dato, int contador, NodoArbolCtr<T> *r) {
                 r = rotarDobleDer(r);
         }
     } else if (contador == r->contador) { // Son iguales
-        r->der =put(dato,contador, r->der);
-        if (altura(r->der) - altura(r->izq) == 2) {
-            if (contador > r->der->contador)
-                r = rotarDer(r);
-            else
-                r = rotarDobleDer(r);
+        r->setDato(dato);
         }
-    }
+
 
     if (altura(r->izq) > altura(r->der))
         r->altura = altura(r->izq) + 1;
@@ -286,11 +290,13 @@ template<class T>
 void ArbolCtr<T>::inorder(NodoArbolCtr<T> *r) {
     if (r == nullptr)
         return;
-
-    inorder(r->izq);
-    cout << r->dato << r->contador << '\n';
+    inorder(r->der);
+    cout <<"\n\n\n------------------"<< r->contador<<"------------------\n\n";
+    r->dato.print();
+    //cout << r->dato << r->contador << '\n';
     inorder(r->izq);
 }
+
 
 template<class T>
 void ArbolCtr<T>::posorder(NodoArbolCtr<T> *r) {
@@ -379,6 +385,19 @@ void ArbolCtr<T>::print(bool esDerecho, const std::string& identacion, NodoArbol
     if (r->izq != nullptr) {
         print(false, identacion + (esDerecho ? "|    " : "     "), r->izq);
     }
+}
+
+template<class T>
+void ArbolCtr<T>::mostrarOcu(NodoArbolCtr<T> *r, T arg) {
+    if (r == nullptr)
+        return;
+    mostrarOcu(r->der,arg);
+    for(int i=0; i<r->dato.getTamanio();++i){
+        T pal = r->dato.getDato(i);
+        if (pal==arg)
+            std::cout<< pal<<' '<<r->contador<<endl;
+    }
+    mostrarOcu(r->izq,arg);
 }
 
 

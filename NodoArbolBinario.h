@@ -17,7 +17,7 @@ public:
     NodoArbolBinario(T d){
         der = izq = nullptr;
         altura = 0;
-        contador = 0;
+        contador = 1;
         dato = d;
     }
 

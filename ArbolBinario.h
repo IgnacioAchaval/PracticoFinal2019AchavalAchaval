@@ -28,9 +28,9 @@ public:
         raiz = put(dato, raiz);
     };
 
-    void insertarOrden(ArbolCtr<T> *a) {
+    void insertarOrden(ArbolCtr<T> *a);/* {
         insertarOrden(a, raiz);
-    };
+    };*/
 
 
     /**
@@ -39,13 +39,13 @@ public:
      * @param clave Valor a buscar
      * @return el valor buscado
      */
-    bool search(T dato) {
+    T search(T dato) {
         return search(dato, raiz);
-    };
+    }
 
     int searchCont(T dato) {
-        return searchCont(raiz, dato);
-    };
+        return searchCont(raiz,dato);
+    }
 
     void remove(T dato);
 
@@ -67,12 +67,15 @@ public:
 
 private:
     NodoArbolBinario<T> *put(T dato, NodoArbolBinario<T> *r);
-    int searchCont(NodoArbolBinario<T> *r,T dato);
+
+    //int searchCont(NodoArbolBinario<T> *r,T dato);
+    int searchCont(NodoArbolBinario<T> *r, T dato);
+
     int countNodes(NodoArbolBinario<T> *r);
 
     void insertarOrden(ArbolCtr<T> *a, NodoArbolBinario<T> *r);
 
-    bool search(T dato, NodoArbolBinario<T> *r);
+    T search(T dato, NodoArbolBinario<T> *r);
 
     void preorder(NodoArbolBinario<T> *r);
 
@@ -189,7 +192,7 @@ bool ArbolBinario<T>::esVacio() {
 
 template<class T>
 void ArbolBinario<T>::vaciar() {
-    raiz == nullptr;
+    raiz = nullptr;
 }
 
 
@@ -208,6 +211,11 @@ void ArbolBinario<T>::preorder() {
 template<class T>
 void ArbolBinario<T>::inorder() {
     inorder(raiz);
+}
+
+template<class T>
+void ArbolBinario<T>::insertarOrden(ArbolCtr<T> *a) {
+        insertarOrden(a,raiz);
 }
 
 
@@ -273,11 +281,11 @@ NodoArbolBinario<T> *ArbolBinario<T>::put(T dato, NodoArbolBinario<T> *r) {
 
 template<class T>
 void ArbolBinario<T>::insertarOrden(ArbolCtr<T> *a, NodoArbolBinario<T> *r) {
-    if (r != nullptr) {
-        insertarOrden(a, r->izq);
-        a->put(r->dato, r->contador);
-        insertarOrden(a, r->der);
-    }
+    if (r == nullptr)
+        return;
+    insertarOrden(a, r->der);
+    a->put(r->dato, r->contador);
+    insertarOrden(a, r->izq);
 }
 
 /* Functions to count number of nodes */
@@ -299,25 +307,20 @@ int ArbolBinario<T>::countNodes(NodoArbolBinario<T> *r) {
 
 
 template<class T>
-bool ArbolBinario<T>::search(T dato, NodoArbolBinario<T> *r) {
-    bool found = false;
-    while ((r != nullptr) && !found) {
-        string rval = r->dato;
-        if (dato < rval)
-            r = r->izq;
-        else if (dato > rval)
-            r = r->der;
-        else {
-            found = true;
-            break;
-        }
-
-        found = true;
+T ArbolBinario<T>::search(T dato, NodoArbolBinario<T> *r) {
+    if (r == nullptr) {
+        throw std::out_of_range("Elemento no encontrado");
     }
-    return found;
+    if (r->dato == dato)
+        return r->dato ;
+    if (r->dato > dato)
+        return search(dato, r->izq);
+    else
+        return search(dato, r->der);
 }
+
 template<class T>
-int ArbolBinario<T>::searchCont(NodoArbolBinario<T> *r,T dato){
+int ArbolBinario<T>::searchCont(NodoArbolBinario<T> *r, T dato) {
     bool found = false;
     while ((r != nullptr) && !found) {
         T rdato = r->dato;
@@ -334,6 +337,24 @@ int ArbolBinario<T>::searchCont(NodoArbolBinario<T> *r,T dato){
         return r->getContador();
 }
 
+//template<class T>
+//int ArbolBinario<T>::searchContt(NodoArbolBinario<T> *r,T dato){
+//    bool found = false;
+//    while ((r != nullptr) && !found) {
+//        T rdato = r->dato;
+//        if (dato < rdato)
+//            r = r->izq;
+//        else if (dato > rdato)
+//            r = r->der;
+//        else {
+//            found = true;
+//            break;
+//        }
+//    }
+//    if (found)
+//        return r->getContador();
+//}
+
 template<class T>
 void ArbolBinario<T>::preorder(NodoArbolBinario<T> *r) {
     if (r == nullptr)
@@ -348,10 +369,9 @@ template<class T>
 void ArbolBinario<T>::inorder(NodoArbolBinario<T> *r) {
     if (r == nullptr)
         return;
-
-    inorder(r->izq);
-    cout << r->dato << '\n';
-    inorder(r->der);
+        inorder(r->izq);
+        cout << r->dato <<'\n';
+        inorder(r->der);
 }
 
 template<class T>
