@@ -123,114 +123,6 @@ PracticoFinal2019AchavalAchaval/fast:
 	$(MAKE) -f CMakeFiles/PracticoFinal2019AchavalAchaval.dir/build.make CMakeFiles/PracticoFinal2019AchavalAchaval.dir/build
 .PHONY : PracticoFinal2019AchavalAchaval/fast
 
-Arbol.o: Arbol.cpp.o
-
-.PHONY : Arbol.o
-
-# target to build an object file
-Arbol.cpp.o:
-	$(MAKE) -f CMakeFiles/PracticoFinal2019AchavalAchaval.dir/build.make CMakeFiles/PracticoFinal2019AchavalAchaval.dir/Arbol.cpp.o
-.PHONY : Arbol.cpp.o
-
-Arbol.i: Arbol.cpp.i
-
-.PHONY : Arbol.i
-
-# target to preprocess a source file
-Arbol.cpp.i:
-	$(MAKE) -f CMakeFiles/PracticoFinal2019AchavalAchaval.dir/build.make CMakeFiles/PracticoFinal2019AchavalAchaval.dir/Arbol.cpp.i
-.PHONY : Arbol.cpp.i
-
-Arbol.s: Arbol.cpp.s
-
-.PHONY : Arbol.s
-
-# target to generate assembly for a file
-Arbol.cpp.s:
-	$(MAKE) -f CMakeFiles/PracticoFinal2019AchavalAchaval.dir/build.make CMakeFiles/PracticoFinal2019AchavalAchaval.dir/Arbol.cpp.s
-.PHONY : Arbol.cpp.s
-
-Arbolstr.o: Arbolstr.cpp.o
-
-.PHONY : Arbolstr.o
-
-# target to build an object file
-Arbolstr.cpp.o:
-	$(MAKE) -f CMakeFiles/PracticoFinal2019AchavalAchaval.dir/build.make CMakeFiles/PracticoFinal2019AchavalAchaval.dir/Arbolstr.cpp.o
-.PHONY : Arbolstr.cpp.o
-
-Arbolstr.i: Arbolstr.cpp.i
-
-.PHONY : Arbolstr.i
-
-# target to preprocess a source file
-Arbolstr.cpp.i:
-	$(MAKE) -f CMakeFiles/PracticoFinal2019AchavalAchaval.dir/build.make CMakeFiles/PracticoFinal2019AchavalAchaval.dir/Arbolstr.cpp.i
-.PHONY : Arbolstr.cpp.i
-
-Arbolstr.s: Arbolstr.cpp.s
-
-.PHONY : Arbolstr.s
-
-# target to generate assembly for a file
-Arbolstr.cpp.s:
-	$(MAKE) -f CMakeFiles/PracticoFinal2019AchavalAchaval.dir/build.make CMakeFiles/PracticoFinal2019AchavalAchaval.dir/Arbolstr.cpp.s
-.PHONY : Arbolstr.cpp.s
-
-Lista.o: Lista.cpp.o
-
-.PHONY : Lista.o
-
-# target to build an object file
-Lista.cpp.o:
-	$(MAKE) -f CMakeFiles/PracticoFinal2019AchavalAchaval.dir/build.make CMakeFiles/PracticoFinal2019AchavalAchaval.dir/Lista.cpp.o
-.PHONY : Lista.cpp.o
-
-Lista.i: Lista.cpp.i
-
-.PHONY : Lista.i
-
-# target to preprocess a source file
-Lista.cpp.i:
-	$(MAKE) -f CMakeFiles/PracticoFinal2019AchavalAchaval.dir/build.make CMakeFiles/PracticoFinal2019AchavalAchaval.dir/Lista.cpp.i
-.PHONY : Lista.cpp.i
-
-Lista.s: Lista.cpp.s
-
-.PHONY : Lista.s
-
-# target to generate assembly for a file
-Lista.cpp.s:
-	$(MAKE) -f CMakeFiles/PracticoFinal2019AchavalAchaval.dir/build.make CMakeFiles/PracticoFinal2019AchavalAchaval.dir/Lista.cpp.s
-.PHONY : Lista.cpp.s
-
-Nodo.o: Nodo.cpp.o
-
-.PHONY : Nodo.o
-
-# target to build an object file
-Nodo.cpp.o:
-	$(MAKE) -f CMakeFiles/PracticoFinal2019AchavalAchaval.dir/build.make CMakeFiles/PracticoFinal2019AchavalAchaval.dir/Nodo.cpp.o
-.PHONY : Nodo.cpp.o
-
-Nodo.i: Nodo.cpp.i
-
-.PHONY : Nodo.i
-
-# target to preprocess a source file
-Nodo.cpp.i:
-	$(MAKE) -f CMakeFiles/PracticoFinal2019AchavalAchaval.dir/build.make CMakeFiles/PracticoFinal2019AchavalAchaval.dir/Nodo.cpp.i
-.PHONY : Nodo.cpp.i
-
-Nodo.s: Nodo.cpp.s
-
-.PHONY : Nodo.s
-
-# target to generate assembly for a file
-Nodo.cpp.s:
-	$(MAKE) -f CMakeFiles/PracticoFinal2019AchavalAchaval.dir/build.make CMakeFiles/PracticoFinal2019AchavalAchaval.dir/Nodo.cpp.s
-.PHONY : Nodo.cpp.s
-
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -258,60 +150,6 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/PracticoFinal2019AchavalAchaval.dir/build.make CMakeFiles/PracticoFinal2019AchavalAchaval.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-nodoArbol.o: nodoArbol.cpp.o
-
-.PHONY : nodoArbol.o
-
-# target to build an object file
-nodoArbol.cpp.o:
-	$(MAKE) -f CMakeFiles/PracticoFinal2019AchavalAchaval.dir/build.make CMakeFiles/PracticoFinal2019AchavalAchaval.dir/nodoArbol.cpp.o
-.PHONY : nodoArbol.cpp.o
-
-nodoArbol.i: nodoArbol.cpp.i
-
-.PHONY : nodoArbol.i
-
-# target to preprocess a source file
-nodoArbol.cpp.i:
-	$(MAKE) -f CMakeFiles/PracticoFinal2019AchavalAchaval.dir/build.make CMakeFiles/PracticoFinal2019AchavalAchaval.dir/nodoArbol.cpp.i
-.PHONY : nodoArbol.cpp.i
-
-nodoArbol.s: nodoArbol.cpp.s
-
-.PHONY : nodoArbol.s
-
-# target to generate assembly for a file
-nodoArbol.cpp.s:
-	$(MAKE) -f CMakeFiles/PracticoFinal2019AchavalAchaval.dir/build.make CMakeFiles/PracticoFinal2019AchavalAchaval.dir/nodoArbol.cpp.s
-.PHONY : nodoArbol.cpp.s
-
-nodoArbolstr.o: nodoArbolstr.cpp.o
-
-.PHONY : nodoArbolstr.o
-
-# target to build an object file
-nodoArbolstr.cpp.o:
-	$(MAKE) -f CMakeFiles/PracticoFinal2019AchavalAchaval.dir/build.make CMakeFiles/PracticoFinal2019AchavalAchaval.dir/nodoArbolstr.cpp.o
-.PHONY : nodoArbolstr.cpp.o
-
-nodoArbolstr.i: nodoArbolstr.cpp.i
-
-.PHONY : nodoArbolstr.i
-
-# target to preprocess a source file
-nodoArbolstr.cpp.i:
-	$(MAKE) -f CMakeFiles/PracticoFinal2019AchavalAchaval.dir/build.make CMakeFiles/PracticoFinal2019AchavalAchaval.dir/nodoArbolstr.cpp.i
-.PHONY : nodoArbolstr.cpp.i
-
-nodoArbolstr.s: nodoArbolstr.cpp.s
-
-.PHONY : nodoArbolstr.s
-
-# target to generate assembly for a file
-nodoArbolstr.cpp.s:
-	$(MAKE) -f CMakeFiles/PracticoFinal2019AchavalAchaval.dir/build.make CMakeFiles/PracticoFinal2019AchavalAchaval.dir/nodoArbolstr.cpp.s
-.PHONY : nodoArbolstr.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -321,27 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... PracticoFinal2019AchavalAchaval"
-	@echo "... Arbol.o"
-	@echo "... Arbol.i"
-	@echo "... Arbol.s"
-	@echo "... Arbolstr.o"
-	@echo "... Arbolstr.i"
-	@echo "... Arbolstr.s"
-	@echo "... Lista.o"
-	@echo "... Lista.i"
-	@echo "... Lista.s"
-	@echo "... Nodo.o"
-	@echo "... Nodo.i"
-	@echo "... Nodo.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... nodoArbol.o"
-	@echo "... nodoArbol.i"
-	@echo "... nodoArbol.s"
-	@echo "... nodoArbolstr.o"
-	@echo "... nodoArbolstr.i"
-	@echo "... nodoArbolstr.s"
 .PHONY : help
 
 
