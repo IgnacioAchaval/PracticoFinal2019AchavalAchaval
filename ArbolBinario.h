@@ -10,7 +10,6 @@
 #include <iostream>
 #include "NodoArbolBinario.h"
 #include "ArbolCtr.h"
-//#include "Arbol.h"
 
 template<class T>
 class ArbolBinario {
@@ -246,7 +245,7 @@ NodoArbolBinario<T> *ArbolBinario<T>::put(T dato, NodoArbolBinario<T> *r) {
 
     if (dato < r->dato) {
         r->izq =put(dato, r->izq);
-        r->contador=1;
+        r->contador=1;                  //al crear nodoarbol nuevo la palabra empiezo a contar las palabras
         if (altura(r->izq) - altura(r->der) == 2) {
             if (dato < r->izq->dato)
                 r = rotarIzq(r);
@@ -264,7 +263,7 @@ NodoArbolBinario<T> *ArbolBinario<T>::put(T dato, NodoArbolBinario<T> *r) {
         }
     } else if (dato == r->dato) { // Son iguales
 
-        r->contador++;
+        r->contador++;          // si ya existe la palabra en el arbol en vez de hacer throw, empiezo a incrementar el contador a medida que vayan llegando
     }
 
     if (altura(r->izq) > altura(r->der))
@@ -284,7 +283,7 @@ void ArbolBinario<T>::insertarOrden(ArbolCtr<T> *a, NodoArbolBinario<T> *r) {
     if (r == nullptr)
         return;
     insertarOrden(a, r->der);
-    a->put(r->dato, r->contador);
+    a->put(r->dato, r->contador); //recorro el arbol en orden. en vez de imprimir inserto en el segundo arbol
     insertarOrden(a, r->izq);
 }
 
@@ -337,23 +336,7 @@ int ArbolBinario<T>::searchCont(NodoArbolBinario<T> *r, T dato) {
         return r->getContador();
 }
 
-//template<class T>
-//int ArbolBinario<T>::searchContt(NodoArbolBinario<T> *r,T dato){
-//    bool found = false;
-//    while ((r != nullptr) && !found) {
-//        T rdato = r->dato;
-//        if (dato < rdato)
-//            r = r->izq;
-//        else if (dato > rdato)
-//            r = r->der;
-//        else {
-//            found = true;
-//            break;
-//        }
-//    }
-//    if (found)
-//        return r->getContador();
-//}
+
 
 template<class T>
 void ArbolBinario<T>::preorder(NodoArbolBinario<T> *r) {
@@ -443,24 +426,6 @@ NodoArbolBinario<T> *ArbolBinario<T>::buscarMax(NodoArbolBinario<T> *r, bool *en
 
     return ret;
 
-}
-
-template<class T>
-void ArbolBinario<T>::print(bool esDerecho, const std::string& identacion, NodoArbolBinario<T> *r) {
-    if (r->der != nullptr) {
-        print(true, identacion + (esDerecho ? "     " : "|    "), r->der);
-    }
-    std::cout << identacion;
-    if (esDerecho) {
-        std::cout << " /";
-    } else {
-        std::cout << " \\";
-    }
-    std::cout << "-- ";
-    std::cout << r->dato << std::endl;
-    if (r->izq != nullptr) {
-        print(false, identacion + (esDerecho ? "|    " : "     "), r->izq);
-    }
 }
 
 

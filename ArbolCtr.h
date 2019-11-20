@@ -10,7 +10,6 @@
 #include <stdexcept>
 #include <iostream>
 #include "NodoArbolCtr.h"
-//#include "Arbol.h"
 
 using namespace std;
 
@@ -46,8 +45,6 @@ public:
 
     void inorder();
 
-    void mostrarOcu(T arg);
-
     void postorder();
 
     ~ArbolCtr();
@@ -67,8 +64,6 @@ private:
     void preorder(NodoArbolCtr<T> *r);
 
     void inorder(NodoArbolCtr<T> *r);
-
-    void mostrarOcu(NodoArbolCtr<T> *r, T arg);
 
     void posorder(NodoArbolCtr<T> *r);
 
@@ -202,10 +197,6 @@ void ArbolCtr<T>::inorder() {
     inorder(raiz);
 }
 
-template<class T>
-void ArbolCtr<T>::mostrarOcu(T arg) {
-    mostrarOcu(raiz,arg);
-}
 
 
 /**
@@ -287,13 +278,12 @@ void ArbolCtr<T>::preorder(NodoArbolCtr<T> *r) {
 }
 
 template<class T>
-void ArbolCtr<T>::inorder(NodoArbolCtr<T> *r) {
+void ArbolCtr<T>::inorder(NodoArbolCtr<T> *r) { //imprimo el arbol en orden. Primero muestro el contador del nodo y luego la lista que contiene cada nodo
     if (r == nullptr)
         return;
     inorder(r->der);
     cout <<"\n\n\n------------------"<< r->contador<<"------------------\n\n";
     r->dato.print();
-    //cout << r->dato << r->contador << '\n';
     inorder(r->izq);
 }
 
@@ -369,36 +359,6 @@ NodoArbolCtr<T> *ArbolCtr<T>::buscarMax(NodoArbolCtr<T> *r, bool *encontre) {
 
 }
 
-template<class T>
-void ArbolCtr<T>::print(bool esDerecho, const std::string& identacion, NodoArbolCtr<T> *r) {
-    if (r->der != nullptr) {
-        print(true, identacion + (esDerecho ? "     " : "|    "), r->der);
-    }
-    std::cout << identacion;
-    if (esDerecho) {
-        std::cout << " /";
-    } else {
-        std::cout << " \\";
-    }
-    std::cout << "-- ";
-    std::cout << r->dato << std::endl;
-    if (r->izq != nullptr) {
-        print(false, identacion + (esDerecho ? "|    " : "     "), r->izq);
-    }
-}
-
-template<class T>
-void ArbolCtr<T>::mostrarOcu(NodoArbolCtr<T> *r, T arg) {
-    if (r == nullptr)
-        return;
-    mostrarOcu(r->der,arg);
-    for(int i=0; i<r->dato.getTamanio();++i){
-        T pal = r->dato.getDato(i);
-        if (pal==arg)
-            std::cout<< pal<<' '<<r->contador<<endl;
-    }
-    mostrarOcu(r->izq,arg);
-}
 
 
 #endif //PRACTICOFINAL2019ACHAVALACHAVAL_ARBOLCTR_H

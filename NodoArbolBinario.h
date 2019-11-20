@@ -12,12 +12,12 @@ public:
     T dato;
     NodoArbolBinario<T> *izq, *der;
     int altura;
-    int contador;
+    int contador;           // A diferencia de un arbol comun tengo un contador
 
     NodoArbolBinario(T d){
         der = izq = nullptr;
         altura = 0;
-        contador = 1;
+        contador = 1;           // siempre va a ser igual o mayor a uno
         dato = d;
     }
 
